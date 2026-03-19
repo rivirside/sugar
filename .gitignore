@@ -8,3 +8,6 @@ __pycache__/
 .vercel
 .superpowers/
 # web/data/ must be committed -- Vercel needs it at build time
+
+# Ring 2: import pipeline cache (large API responses)
+pipeline/cache/
