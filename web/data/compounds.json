@@ -1,0 +1,2959 @@
+[
+  {
+    "id": "GLYCOLALDEHYDE",
+    "name": "Glycolaldehyde",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 2,
+    "chirality": "achiral",
+    "formula": "C2H4O2",
+    "stereocenters": [],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-GLYC",
+    "name": "D-Glyceraldehyde",
+    "aliases": [
+      "D-Glyceraldehyde"
+    ],
+    "type": "aldose",
+    "carbons": 3,
+    "chirality": "D",
+    "formula": "C3H6O3",
+    "stereocenters": [
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-GLYC",
+    "name": "L-Glyceraldehyde",
+    "aliases": [
+      "L-Glyceraldehyde"
+    ],
+    "type": "aldose",
+    "carbons": 3,
+    "chirality": "L",
+    "formula": "C3H6O3",
+    "stereocenters": [
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-ERY",
+    "name": "D-Erythrose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 4,
+    "chirality": "D",
+    "formula": "C4H8O4",
+    "stereocenters": [
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-THR",
+    "name": "L-Threose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 4,
+    "chirality": "L",
+    "formula": "C4H8O4",
+    "stereocenters": [
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-THR",
+    "name": "D-Threose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 4,
+    "chirality": "D",
+    "formula": "C4H8O4",
+    "stereocenters": [
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-ERY",
+    "name": "L-Erythrose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 4,
+    "chirality": "L",
+    "formula": "C4H8O4",
+    "stereocenters": [
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-RIB",
+    "name": "D-Ribose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-LYX",
+    "name": "L-Lyxose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 5,
+    "chirality": "L",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-XYL",
+    "name": "D-Xylose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-ARA",
+    "name": "L-Arabinose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 5,
+    "chirality": "L",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-ARA",
+    "name": "D-Arabinose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-XYL",
+    "name": "L-Xylose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 5,
+    "chirality": "L",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-LYX",
+    "name": "D-Lyxose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-RIB",
+    "name": "L-Ribose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 5,
+    "chirality": "L",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-GUL",
+    "name": "D-Gulose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-MAN",
+    "name": "L-Mannose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-ALL",
+    "name": "D-Allose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-TAL",
+    "name": "L-Talose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-GAL",
+    "name": "D-Galactose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-ALT",
+    "name": "L-Altrose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-GLC",
+    "name": "D-Glucose",
+    "aliases": [
+      "Dextrose"
+    ],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-IDO",
+    "name": "L-Idose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-IDO",
+    "name": "D-Idose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-GLC",
+    "name": "L-Glucose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-ALT",
+    "name": "D-Altrose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-GAL",
+    "name": "L-Galactose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-TAL",
+    "name": "D-Talose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-ALL",
+    "name": "L-Allose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-MAN",
+    "name": "D-Mannose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-GUL",
+    "name": "L-Gulose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RRRRR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RRRRS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RRRSR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RRRSS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RRSRR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RRSRS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RRSSR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RRSSS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RSRRR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RSRRS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RSRSR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RSRSS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RSSRR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RSSRS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RSSSR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-RSSSS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SRRRR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SRRRS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SRRSR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SRRSS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SRSRR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SRSRS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SRSSR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SRSSS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SSRRR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SSRRS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SSRSR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SSRSS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SSSRR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SSSRS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SSSSR",
+    "name": "D-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "ALDO-C7-SSSSS",
+    "name": "L-aldoheptose",
+    "aliases": [],
+    "type": "aldose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "DHA",
+    "name": "Dihydroxyacetone",
+    "aliases": [
+      "DHA",
+      "1,3-Dihydroxyacetone"
+    ],
+    "type": "ketose",
+    "carbons": 3,
+    "chirality": "achiral",
+    "formula": "C3H6O3",
+    "stereocenters": [],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-ERLU",
+    "name": "D-Erythrulose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 4,
+    "chirality": "D",
+    "formula": "C4H8O4",
+    "stereocenters": [
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-ERLU",
+    "name": "L-Erythrulose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 4,
+    "chirality": "L",
+    "formula": "C4H8O4",
+    "stereocenters": [
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-RBU",
+    "name": "D-Ribulose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-XLU",
+    "name": "L-Xylulose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 5,
+    "chirality": "L",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-XLU",
+    "name": "D-Xylulose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-RBU",
+    "name": "L-Ribulose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 5,
+    "chirality": "L",
+    "formula": "C5H10O5",
+    "stereocenters": [
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-TAG",
+    "name": "D-Tagatose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-FRU",
+    "name": "L-Fructose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-SOR",
+    "name": "D-Sorbose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-PSI",
+    "name": "L-Psicose",
+    "aliases": [
+      "L-Allulose"
+    ],
+    "type": "ketose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-PSI",
+    "name": "D-Psicose",
+    "aliases": [
+      "D-Allulose"
+    ],
+    "type": "ketose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-SOR",
+    "name": "L-Sorbose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "D-FRU",
+    "name": "D-Fructose",
+    "aliases": [
+      "Levulose"
+    ],
+    "type": "ketose",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "L-TAG",
+    "name": "L-Tagatose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H12O6",
+    "stereocenters": [
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-RRRR",
+    "name": "D-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-RRRS",
+    "name": "L-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-RRSR",
+    "name": "D-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-RRSS",
+    "name": "L-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-RSRR",
+    "name": "D-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-RSRS",
+    "name": "L-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-RSSR",
+    "name": "D-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-RSSS",
+    "name": "L-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-SRRR",
+    "name": "D-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-SRRS",
+    "name": "L-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-SRSR",
+    "name": "D-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-SRSS",
+    "name": "L-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-SSRR",
+    "name": "D-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-SSRS",
+    "name": "L-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-SSSR",
+    "name": "D-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "KETO-C7-SSSS",
+    "name": "L-ketoheptose",
+    "aliases": [],
+    "type": "ketose",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H14O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": null,
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {}
+  },
+  {
+    "id": "POLYOL-C2-ACHIRAL",
+    "name": "C2-polyol-ACHIRAL",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 2,
+    "chirality": "achiral",
+    "formula": "C2H6O2",
+    "stereocenters": [],
+    "modifications": null,
+    "parent_monosaccharide": "GLYCOLALDEHYDE",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "GLYCOLALDEHYDE"
+      ],
+      "canonical_config": "ACHIRAL"
+    }
+  },
+  {
+    "id": "GLYCEROL",
+    "name": "Glycerol",
+    "aliases": [
+      "Glycerin"
+    ],
+    "type": "polyol",
+    "carbons": 3,
+    "chirality": "achiral",
+    "formula": "C3H8O3",
+    "stereocenters": [],
+    "modifications": null,
+    "parent_monosaccharide": "D-GLYC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "D-GLYC",
+        "L-GLYC",
+        "DHA"
+      ],
+      "canonical_config": "ACHIRAL"
+    }
+  },
+  {
+    "id": "D-ERYTHRITOL",
+    "name": "Erythritol",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 4,
+    "chirality": "D",
+    "formula": "C4H10O4",
+    "stereocenters": [
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "D-ERY",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "D-ERY",
+        "D-ERLU"
+      ],
+      "canonical_config": "RR"
+    }
+  },
+  {
+    "id": "POLYOL-C4-SR",
+    "name": "C4-polyol-SR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 4,
+    "chirality": "L",
+    "formula": "C4H10O4",
+    "stereocenters": [
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-THR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-THR",
+        "D-THR",
+        "L-ERLU"
+      ],
+      "canonical_config": "SR"
+    }
+  },
+  {
+    "id": "POLYOL-C4-SS",
+    "name": "C4-polyol-SS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 4,
+    "chirality": "L",
+    "formula": "C4H10O4",
+    "stereocenters": [
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-ERY",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-ERY"
+      ],
+      "canonical_config": "SS"
+    }
+  },
+  {
+    "id": "D-RIBITOL",
+    "name": "Ribitol",
+    "aliases": [
+      "Adonitol"
+    ],
+    "type": "polyol",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H12O5",
+    "stereocenters": [
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "D-RIB",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "D-RIB",
+        "D-RBU"
+      ],
+      "canonical_config": "RRR"
+    }
+  },
+  {
+    "id": "D-ARABITOL",
+    "name": "D-Arabitol",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 5,
+    "chirality": "L",
+    "formula": "C5H12O5",
+    "stereocenters": [
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-LYX",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-LYX",
+        "D-ARA",
+        "L-XLU"
+      ],
+      "canonical_config": "SRR"
+    }
+  },
+  {
+    "id": "XYLITOL",
+    "name": "Xylitol",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H12O5",
+    "stereocenters": [
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "D-XYL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "D-XYL",
+        "D-XLU"
+      ],
+      "canonical_config": "RSR"
+    }
+  },
+  {
+    "id": "POLYOL-C5-SSR",
+    "name": "C5-polyol-SSR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 5,
+    "chirality": "L",
+    "formula": "C5H12O5",
+    "stereocenters": [
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-ARA",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-ARA",
+        "D-LYX",
+        "L-RBU"
+      ],
+      "canonical_config": "SSR"
+    }
+  },
+  {
+    "id": "POLYOL-C5-SRS",
+    "name": "C5-polyol-SRS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 5,
+    "chirality": "L",
+    "formula": "C5H12O5",
+    "stereocenters": [
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-XYL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-XYL"
+      ],
+      "canonical_config": "SRS"
+    }
+  },
+  {
+    "id": "POLYOL-C5-SSS",
+    "name": "C5-polyol-SSS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 5,
+    "chirality": "L",
+    "formula": "C5H12O5",
+    "stereocenters": [
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-RIB",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-RIB"
+      ],
+      "canonical_config": "SSS"
+    }
+  },
+  {
+    "id": "POLYOL-C6-RRRR",
+    "name": "C6-polyol-RRRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O6",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "D-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "D-GUL",
+        "D-TAG"
+      ],
+      "canonical_config": "RRRR"
+    }
+  },
+  {
+    "id": "POLYOL-C6-SRRR",
+    "name": "C6-polyol-SRRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O6",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-MAN",
+        "D-IDO",
+        "L-FRU"
+      ],
+      "canonical_config": "SRRR"
+    }
+  },
+  {
+    "id": "GALACTITOL",
+    "name": "Galactitol",
+    "aliases": [
+      "Dulcitol"
+    ],
+    "type": "polyol",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O6",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "D-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "D-ALL",
+        "D-GAL",
+        "D-SOR",
+        "D-PSI"
+      ],
+      "canonical_config": "RSRR"
+    }
+  },
+  {
+    "id": "POLYOL-C6-SSRR",
+    "name": "C6-polyol-SSRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O6",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-TAL",
+        "D-TAL",
+        "L-PSI"
+      ],
+      "canonical_config": "SSRR"
+    }
+  },
+  {
+    "id": "POLYOL-C6-SRSR",
+    "name": "C6-polyol-SRSR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-ALT",
+        "D-ALT",
+        "L-SOR"
+      ],
+      "canonical_config": "SRSR"
+    }
+  },
+  {
+    "id": "D-SORBITOL",
+    "name": "Sorbitol",
+    "aliases": [
+      "D-Glucitol"
+    ],
+    "type": "polyol",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "D-GLC",
+        "D-FRU"
+      ],
+      "canonical_config": "RSSR"
+    }
+  },
+  {
+    "id": "D-MANNITOL",
+    "name": "D-Mannitol",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-IDO",
+        "D-MAN",
+        "L-TAG"
+      ],
+      "canonical_config": "SSSR"
+    }
+  },
+  {
+    "id": "POLYOL-C6-SRRS",
+    "name": "C6-polyol-SRRS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O6",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-GLC"
+      ],
+      "canonical_config": "SRRS"
+    }
+  },
+  {
+    "id": "POLYOL-C6-SSRS",
+    "name": "C6-polyol-SSRS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O6",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-GAL",
+        "L-ALL"
+      ],
+      "canonical_config": "SSRS"
+    }
+  },
+  {
+    "id": "POLYOL-C6-SSSS",
+    "name": "C6-polyol-SSSS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O6",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "L-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "L-GUL"
+      ],
+      "canonical_config": "SSSS"
+    }
+  },
+  {
+    "id": "POLYOL-C7-RRRRR",
+    "name": "C7-polyol-RRRRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RRRRR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RRRRR",
+        "KETO-C7-RRRR"
+      ],
+      "canonical_config": "RRRRR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SRRRR",
+    "name": "C7-polyol-SRRRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RRRRS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RRRRS",
+        "ALDO-C7-SRRRR",
+        "KETO-C7-RRRS"
+      ],
+      "canonical_config": "SRRRR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-RSRRR",
+    "name": "C7-polyol-RSRRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RRRSR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RRRSR",
+        "ALDO-C7-RSRRR",
+        "KETO-C7-RRSR",
+        "KETO-C7-SRRR"
+      ],
+      "canonical_config": "RSRRR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SSRRR",
+    "name": "C7-polyol-SSRRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RRRSS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RRRSS",
+        "ALDO-C7-SSRRR",
+        "KETO-C7-RRSS"
+      ],
+      "canonical_config": "SSRRR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-RRSRR",
+    "name": "C7-polyol-RRSRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RRSRR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RRSRR",
+        "KETO-C7-RSRR"
+      ],
+      "canonical_config": "RRSRR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SRSRR",
+    "name": "C7-polyol-SRSRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RRSRS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RRSRS",
+        "ALDO-C7-SRSRR",
+        "KETO-C7-RSRS"
+      ],
+      "canonical_config": "SRSRR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-RSSRR",
+    "name": "C7-polyol-RSSRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RRSSR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RRSSR",
+        "ALDO-C7-RSSRR",
+        "KETO-C7-RSSR",
+        "KETO-C7-SSRR"
+      ],
+      "canonical_config": "RSSRR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SSSRR",
+    "name": "C7-polyol-SSSRR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RRSSS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RRSSS",
+        "ALDO-C7-SSSRR",
+        "KETO-C7-RSSS"
+      ],
+      "canonical_config": "SSSRR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SRRSR",
+    "name": "C7-polyol-SRRSR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RSRRS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RSRRS",
+        "ALDO-C7-SRRSR",
+        "KETO-C7-SRRS"
+      ],
+      "canonical_config": "SRRSR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-RSRSR",
+    "name": "C7-polyol-RSRSR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RSRSR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RSRSR",
+        "KETO-C7-SRSR"
+      ],
+      "canonical_config": "RSRSR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SSRSR",
+    "name": "C7-polyol-SSRSR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RSRSS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RSRSS",
+        "ALDO-C7-SSRSR",
+        "KETO-C7-SRSS"
+      ],
+      "canonical_config": "SSRSR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SRSSR",
+    "name": "C7-polyol-SRSSR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RSSRS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RSSRS",
+        "ALDO-C7-SRSSR",
+        "KETO-C7-SSRS"
+      ],
+      "canonical_config": "SRSSR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-RSSSR",
+    "name": "C7-polyol-RSSSR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RSSSR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RSSSR",
+        "KETO-C7-SSSR"
+      ],
+      "canonical_config": "RSSSR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SSSSR",
+    "name": "C7-polyol-SSSSR",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-RSSSS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-RSSSS",
+        "ALDO-C7-SSSSR",
+        "KETO-C7-SSSS"
+      ],
+      "canonical_config": "SSSSR"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SRRRS",
+    "name": "C7-polyol-SRRRS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-SRRRS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-SRRRS"
+      ],
+      "canonical_config": "SRRRS"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SSRRS",
+    "name": "C7-polyol-SSRRS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-SRRSS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-SRRSS",
+        "ALDO-C7-SSRRS"
+      ],
+      "canonical_config": "SSRRS"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SRSRS",
+    "name": "C7-polyol-SRSRS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-SRSRS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-SRSRS"
+      ],
+      "canonical_config": "SRSRS"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SSSRS",
+    "name": "C7-polyol-SSSRS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-SRSSS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-SRSSS",
+        "ALDO-C7-SSSRS"
+      ],
+      "canonical_config": "SSSRS"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SSRSS",
+    "name": "C7-polyol-SSRSS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-SSRSS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-SSRSS"
+      ],
+      "canonical_config": "SSRSS"
+    }
+  },
+  {
+    "id": "POLYOL-C7-SSSSS",
+    "name": "C7-polyol-SSSSS",
+    "aliases": [],
+    "type": "polyol",
+    "carbons": 7,
+    "chirality": "L",
+    "formula": "C7H16O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": null,
+    "parent_monosaccharide": "ALDO-C7-SSSSS",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "reduction_parents": [
+        "ALDO-C7-SSSSS"
+      ],
+      "canonical_config": "SSSSS"
+    }
+  }
+]

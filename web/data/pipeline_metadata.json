@@ -1,0 +1,19 @@
+{
+  "pipeline_version": "2.0.0",
+  "generated_at": "2026-03-18T22:32:57.798801+00:00",
+  "counts": {
+    "monosaccharides": 94,
+    "polyols": 41,
+    "total_compounds": 135,
+    "epimerizations": 478,
+    "isomerizations": 124,
+    "reductions": 94,
+    "total_reactions": 696
+  },
+  "completeness_warnings": [],
+  "duplicate_warnings": 0,
+  "output_files": {
+    "compounds": "/Users/rivir/Documents/GitHub/sugar/sugar-v2/pipeline/output/compounds.json",
+    "reactions": "/Users/rivir/Documents/GitHub/sugar/sugar-v2/pipeline/output/reactions.json"
+  }
+}

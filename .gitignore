@@ -7,4 +7,4 @@ __pycache__/
 .env.local
 .vercel
 .superpowers/
-web/data/
+# web/data/ must be committed -- Vercel needs it at build time
