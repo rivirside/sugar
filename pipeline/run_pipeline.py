@@ -114,9 +114,136 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
         _abort(f"Reaction ID uniqueness check failed: {len(duplicate_ids)} duplicate(s)")
     print("  -> Reaction ID uniqueness check passed")
 
+    import_stats = None
     if not skip_import:
         print("\n=== Ring 2: Database Enrichment ===")
-        print("  [SKIP] Import not yet implemented")
+        cache_dir = os.path.join(os.path.dirname(__file__), "cache")
+        overrides_path = os.path.join(os.path.dirname(__file__), "data", "match_overrides.json")
+
+        from pipeline.import_.chebi import fetch_chebi_bulk
+        from pipeline.import_.kegg import fetch_kegg_compounds_batch
+        from pipeline.import_.rhea import fetch_rhea_reactions, classify_reaction_participants
+        from pipeline.import_.brenda import fetch_brenda_kinetics
+        from pipeline.import_.match import match_all_compounds, load_overrides
+        from pipeline.import_.merge import (
+            enrich_compound, create_rhea_reaction, find_overlapping_reaction,
+            enrich_reaction_with_rhea,
+        )
+        from pipeline.import_.infer import infer_mirrored_reactions
+        from pipeline.validate.mass_balance import check_formula_balance
+
+        refresh_sources = refresh or set()
+
+        # Step R1: Fetch ChEBI data
+        print("\n[R1] Fetching ChEBI data...")
+        chebi_index = fetch_chebi_bulk(cache_dir, refresh="chebi" in refresh_sources)
+        print(f"  -> ChEBI index: {len(chebi_index)} entries")
+
+        # Step R2: Match compounds
+        print("\n[R2] Matching compounds to ChEBI...")
+        overrides = load_overrides(overrides_path)
+        match_report = match_all_compounds(all_compounds, chebi_index, overrides)
+        matched = sum(1 for m in match_report.values() if m["chebi_id"])
+        print(f"  -> {matched}/{len(all_compounds)} compounds matched")
+
+        # Write match report to cache
+        os.makedirs(cache_dir, exist_ok=True)
+        match_report_path = os.path.join(cache_dir, "match_report.json")
+        with open(match_report_path, "w") as f:
+            json.dump(match_report, f, indent=2)
+
+        # Step R3: Enrich compounds
+        print("\n[R3] Enriching compounds with external IDs...")
+        enriched_compounds = []
+        for compound in all_compounds:
+            match = match_report.get(compound["id"])
+            if match and match["chebi_id"]:
+                enriched_compounds.append(enrich_compound(compound, match))
+            else:
+                enriched_compounds.append(compound)
+        all_compounds = enriched_compounds
+
+        # Step R4: Fetch KEGG data for matched compounds
+        print("\n[R4] Fetching KEGG data...")
+        kegg_ids = [m["kegg_id"] for m in match_report.values() if m.get("kegg_id")]
+        if kegg_ids:
+            kegg_data = fetch_kegg_compounds_batch(kegg_ids, cache_dir, refresh="kegg" in refresh_sources)
+            print(f"  -> {len(kegg_data)} KEGG entries fetched")
+        else:
+            print("  -> No KEGG IDs to fetch")
+
+        # Step R5: Fetch RHEA reactions
+        print("\n[R5] Fetching RHEA reactions...")
+        chebi_ids = [m["chebi_id"] for m in match_report.values() if m["chebi_id"]]
+        rhea_reactions = fetch_rhea_reactions(chebi_ids, cache_dir, refresh="rhea" in refresh_sources)
+        print(f"  -> {len(rhea_reactions)} RHEA reactions found")
+
+        # Step R6: Process RHEA reactions
+        print("\n[R6] Processing RHEA reactions...")
+        chebi_to_compound = {}
+        for compound in all_compounds:
+            if compound.get("chebi_id"):
+                chebi_to_compound[compound["chebi_id"]] = compound["id"]
+
+        new_reactions = []
+        enriched_existing = 0
+        for rhea_rxn in rhea_reactions:
+            subs = [chebi_to_compound.get(cid) for cid in rhea_rxn["substrate_chebi_ids"] if cid in chebi_to_compound]
+            prods = [chebi_to_compound.get(cid) for cid in rhea_rxn["product_chebi_ids"] if cid in chebi_to_compound]
+            subs = [s for s in subs if s]
+            prods = [p for p in prods if p]
+
+            overlap = find_overlapping_reaction(subs, prods, all_reactions)
+            if overlap:
+                idx = all_reactions.index(overlap)
+                all_reactions[idx] = enrich_reaction_with_rhea(overlap, rhea_rxn)
+                enriched_existing += 1
+            else:
+                new_rxn = create_rhea_reaction(rhea_rxn, chebi_to_compound)
+                if new_rxn:
+                    new_reactions.append(new_rxn)
+
+        all_reactions.extend(new_reactions)
+        print(f"  -> {enriched_existing} existing reactions enriched")
+        print(f"  -> {len(new_reactions)} new reactions from RHEA")
+
+        # Step R7: Fetch BRENDA kinetics
+        print("\n[R7] Fetching BRENDA kinetics...")
+        ec_numbers = list({r.get("ec_number") for r in all_reactions if r.get("ec_number")})
+        if ec_numbers:
+            brenda_data = fetch_brenda_kinetics(ec_numbers, cache_dir, refresh="brenda" in refresh_sources)
+            print(f"  -> {len(brenda_data)} EC numbers with kinetics data")
+        else:
+            print("  -> No EC numbers to fetch kinetics for")
+
+        # Step R8: Infer D-to-L mirrored reactions (RHEA-sourced only)
+        print("\n[R8] Inferring D-to-L mirrored reactions...")
+        existing_ids = {r["id"] for r in all_reactions}
+        rhea_sourced = [r for r in all_reactions if r.get("rhea_id") or r.get("metadata", {}).get("source") in ("rhea_import", "rhea_discovery")]
+        inferred = infer_mirrored_reactions(rhea_sourced, all_compounds, existing_ids)
+        all_reactions.extend(inferred)
+        print(f"  -> {len(inferred)} inferred mirrored reactions")
+
+        # Step R9: Formula balance check on imported reactions
+        print("\n[R9] Checking formula balance on imported reactions...")
+        imported_rxns = [r for r in all_reactions if r.get("rhea_id") or r.get("metadata", {}).get("source") == "rhea_import"]
+        if imported_rxns:
+            compound_map_full = {c["id"]: c for c in all_compounds}
+            formula_warnings = check_formula_balance(imported_rxns, compound_map_full)
+            for w in formula_warnings:
+                print(f"  [WARNING] {w}")
+            print(f"  -> {len(imported_rxns)} imported reactions checked, {len(formula_warnings)} warnings")
+        else:
+            print("  -> No imported reactions to check")
+
+        import_stats = {
+            "chebi_matched": matched,
+            "rhea_reactions": len(new_reactions),
+            "enriched_reactions": enriched_existing,
+            "inferred_reactions": len(inferred),
+        }
+
+        print("\n=== Ring 2 complete ===")
 
     # Write output files
     print("\n=== Writing output files ===")
@@ -146,6 +273,7 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
             "reductions": len(reductions),
             "total_reactions": len(all_reactions),
         },
+        "import_stats": import_stats,
         "completeness_warnings": completeness_warnings,
         "duplicate_warnings": len(duplicates),
         "output_files": {
@@ -157,6 +285,15 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
     with open(metadata_path, "w") as f:
         json.dump(metadata, f, indent=2)
     print(f"  -> {metadata_path}")
+
+    # Copy to web/data for Next.js build
+    web_data_dir = os.path.join(os.path.dirname(__file__), "..", "web", "data")
+    if os.path.exists(web_data_dir):
+        import shutil
+        shutil.copy2(compounds_path, os.path.join(web_data_dir, "compounds.json"))
+        shutil.copy2(reactions_path, os.path.join(web_data_dir, "reactions.json"))
+        shutil.copy2(metadata_path, os.path.join(web_data_dir, "pipeline_metadata.json"))
+        print(f"  -> Copied to {web_data_dir}")
 
     print("\n=== Pipeline complete ===")
     print(f"  {len(all_compounds)} compounds, {len(all_reactions)} reactions")
