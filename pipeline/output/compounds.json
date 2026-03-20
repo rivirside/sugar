@@ -2,9 +2,7 @@
   {
     "id": "GLYCOLALDEHYDE",
     "name": "Glycolaldehyde",
-    "aliases": [
-      "glycolaldehyde"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 2,
     "chirality": "achiral",
@@ -15,18 +13,17 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:17071",
-    "kegg_id": "C00266",
-    "pubchem_id": "21820089",
-    "inchi": "InChI=1S/C2H4O2/c3-1-2-4/h1,4H,2H2",
-    "smiles": "[H]C(=O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-GLYC",
     "name": "D-Glyceraldehyde",
     "aliases": [
-      "D-Glyceraldehyde",
-      "<small>D</small>-glyceraldehyde"
+      "D-Glyceraldehyde"
     ],
     "type": "aldose",
     "carbons": 3,
@@ -40,18 +37,17 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:17378",
-    "kegg_id": "C00577",
-    "pubchem_id": "1720474",
-    "inchi": "InChI=1S/C3H6O3/c4-1-3(6)2-5/h1,3,5-6H,2H2/t3-/m0/s1",
-    "smiles": "[H]C(=O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-GLYC",
     "name": "L-Glyceraldehyde",
     "aliases": [
-      "L-Glyceraldehyde",
-      "<small>L</small>-glyceraldehyde"
+      "L-Glyceraldehyde"
     ],
     "type": "aldose",
     "carbons": 3,
@@ -65,18 +61,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:27975",
-    "kegg_id": "C02426",
-    "pubchem_id": "1720475",
-    "inchi": "InChI=1S/C3H6O3/c4-1-3(6)2-5/h1,3,5-6H,2H2/t3-/m1/s1",
-    "smiles": "[H]C(=O)[C@@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-ERY",
     "name": "D-Erythrose",
-    "aliases": [
-      "<small>D</small>-erythrose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 4,
     "chirality": "D",
@@ -90,18 +84,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:27904",
-    "kegg_id": "C01796",
-    "pubchem_id": "23501397",
-    "inchi": "InChI=1S/C4H8O4/c5-1-3(7)4(8)2-6/h1,3-4,6-8H,2H2/t3-,4+/m0/s1",
-    "smiles": "O=C[C@H](O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-THR",
     "name": "L-Threose",
-    "aliases": [
-      "<small>L</small>-threose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 4,
     "chirality": "L",
@@ -115,18 +107,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:21405",
+    "chebi_id": null,
     "kegg_id": null,
-    "pubchem_id": "1721699",
-    "inchi": "InChI=1S/C4H8O4/c5-1-3(7)4(8)2-6/h1,3-4,6-8H,2H2/t3-,4-/m0/s1",
-    "smiles": "[H][C@](O)(C=O)[C@@]([H])(O)CO"
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-THR",
     "name": "D-Threose",
-    "aliases": [
-      "<small>D</small>-threose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 4,
     "chirality": "D",
@@ -140,18 +130,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:28587",
-    "kegg_id": "C06463",
-    "pubchem_id": "1721696",
-    "inchi": "InChI=1S/C4H8O4/c5-1-3(7)4(8)2-6/h1,3-4,6-8H,2H2/t3-,4-/m1/s1",
-    "smiles": "[H]C(=O)[C@@H](O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-ERY",
     "name": "L-Erythrose",
-    "aliases": [
-      "<small>L</small>-erythrulose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 4,
     "chirality": "L",
@@ -165,18 +153,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:27913",
-    "kegg_id": "C02045",
-    "pubchem_id": "1721314",
-    "inchi": "InChI=1S/C4H8O4/c5-1-3(7)4(8)2-6/h3,5-7H,1-2H2/t3-/m0/s1",
-    "smiles": "O=C(CO)[C@@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-RIB",
     "name": "D-Ribose",
-    "aliases": [
-      "<small>D</small>-ribofuranose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 5,
     "chirality": "D",
@@ -191,18 +177,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:47013",
-    "kegg_id": "C00121",
-    "pubchem_id": "364108",
-    "inchi": "InChI=1S/C5H10O5/c6-1-2-3(7)4(8)5(9)10-2/h2-9H,1H2/t2-,3-,4-,5?/m1/s1",
-    "smiles": "OC[C@H]1OC(O)[C@H](O)[C@@H]1O"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-LYX",
     "name": "L-Lyxose",
-    "aliases": [
-      "<em>aldehydo</em>-<small>L</small>-lyxose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 5,
     "chirality": "L",
@@ -217,18 +201,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:28480",
-    "kegg_id": "C01508",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
-    "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4-,5-/m0/s1",
-    "smiles": "O=C[C@H](O)[C@H](O)[C@@H](O)CO"
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-XYL",
     "name": "D-Xylose",
-    "aliases": [
-      "<em>aldehydo</em>-<small>D</small>-xylose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 5,
     "chirality": "D",
@@ -243,18 +225,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:15936",
-    "kegg_id": "C00181",
-    "pubchem_id": "486611",
-    "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4+,5+/m0/s1",
-    "smiles": "O=C[C@H](O)[C@@H](O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-ARA",
     "name": "L-Arabinose",
-    "aliases": [
-      "<small>L</small>-arabinopyranose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 5,
     "chirality": "L",
@@ -269,18 +249,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:17535",
-    "kegg_id": "C00259",
-    "pubchem_id": "17336832",
-    "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3-,4+,5?/m0/s1",
-    "smiles": "OC1OC[C@H](O)[C@H](O)[C@H]1O"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-ARA",
     "name": "D-Arabinose",
-    "aliases": [
-      "<small>D</small>-arabinose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 5,
     "chirality": "D",
@@ -295,8 +273,8 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:17108",
-    "kegg_id": "C00216",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
     "smiles": null
@@ -304,9 +282,7 @@
   {
     "id": "L-XYL",
     "name": "L-Xylose",
-    "aliases": [
-      "<em>aldehydo</em>-<small>L</small>-xylose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 5,
     "chirality": "L",
@@ -321,18 +297,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:17979",
+    "chebi_id": null,
     "kegg_id": null,
-    "pubchem_id": "12596851",
-    "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4+,5+/m1/s1",
-    "smiles": "[H]C(=O)[C@@H](O)[C@H](O)[C@@H](O)CO"
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-LYX",
     "name": "D-Lyxose",
-    "aliases": [
-      "<em>aldehydo</em>-<small>D</small>-lyxose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 5,
     "chirality": "D",
@@ -347,18 +321,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:16789",
-    "kegg_id": "C00476",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
-    "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4-,5-/m1/s1",
-    "smiles": "O=C[C@@H](O)[C@@H](O)[C@H](O)CO"
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-RIB",
     "name": "L-Ribose",
-    "aliases": [
-      "<small>L</small>-ribulose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 5,
     "chirality": "L",
@@ -373,18 +345,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:16880",
-    "kegg_id": "C00508",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
-    "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h3,5-8,10H,1-2H2/t3-,5-/m0/s1",
-    "smiles": "O=C(CO)[C@@H](O)[C@@H](O)CO"
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-GUL",
     "name": "D-Gulose",
-    "aliases": [
-      "<small>D</small>-gulopyranose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "D",
@@ -400,18 +370,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:4191",
-    "kegg_id": "C06465",
-    "pubchem_id": "1907365",
-    "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3+,4-,5-,6?/m1/s1",
-    "smiles": "OC[C@H]1OC(O)[C@H](O)[C@H](O)[C@H]1O"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-MAN",
     "name": "L-Mannose",
-    "aliases": [
-      "<small>D</small>-mannopyranose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "L",
@@ -427,18 +395,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:4208",
-    "kegg_id": "C00159",
-    "pubchem_id": "7540499",
-    "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5+,6?/m1/s1",
-    "smiles": "OC[C@H]1OC(O)[C@@H](O)[C@@H](O)[C@@H]1O"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-ALL",
     "name": "D-Allose",
-    "aliases": [
-      "<em>aldehydo</em>-<small>D</small>-allose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "D",
@@ -454,18 +420,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:40822",
+    "chebi_id": null,
     "kegg_id": null,
-    "pubchem_id": "1724623",
-    "inchi": "InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h1,3-6,8-12H,2H2/t3-,4+,5-,6+/m0/s1",
-    "smiles": "[H]C(=O)[C@H](O)[C@H](O)[C@H](O)[C@H](O)CO"
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-TAL",
     "name": "L-Talose",
-    "aliases": [
-      "<small>D</small>-talose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "L",
@@ -481,18 +445,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:28458",
-    "kegg_id": "C06467",
-    "pubchem_id": "9568372",
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
     "inchi": null,
     "smiles": null
   },
   {
     "id": "D-GAL",
     "name": "D-Galactose",
-    "aliases": [
-      "GDP-galactose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "D",
@@ -508,7 +470,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:35245",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -517,9 +479,7 @@
   {
     "id": "L-ALT",
     "name": "L-Altrose",
-    "aliases": [
-      "<small>D</small>-altrose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "L",
@@ -535,8 +495,8 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:28385",
-    "kegg_id": "C06464",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
     "smiles": null
@@ -545,8 +505,7 @@
     "id": "D-GLC",
     "name": "D-Glucose",
     "aliases": [
-      "Dextrose",
-      "<em>aldehydo</em>-<small>D</small>-glucose"
+      "Dextrose"
     ],
     "type": "aldose",
     "carbons": 6,
@@ -563,18 +522,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:42758",
+    "chebi_id": null,
     "kegg_id": null,
-    "pubchem_id": "1724615",
-    "inchi": "InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h1,3-6,8-12H,2H2/t3-,4+,5+,6+/m0/s1",
-    "smiles": "[H]C(=O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO"
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-IDO",
     "name": "L-Idose",
-    "aliases": [
-      "<small>D</small>-idose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "L",
@@ -590,8 +547,8 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:28014",
-    "kegg_id": "C06466",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
     "smiles": null
@@ -599,9 +556,7 @@
   {
     "id": "D-IDO",
     "name": "D-Idose",
-    "aliases": [
-      "<small>D</small>-idose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "D",
@@ -617,8 +572,8 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:28014",
-    "kegg_id": "C06466",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
     "smiles": null
@@ -626,9 +581,7 @@
   {
     "id": "L-GLC",
     "name": "L-Glucose",
-    "aliases": [
-      "<em>aldehydo</em>-<small>D</small>-glucose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "L",
@@ -644,18 +597,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:42758",
+    "chebi_id": null,
     "kegg_id": null,
-    "pubchem_id": "1724615",
-    "inchi": "InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h1,3-6,8-12H,2H2/t3-,4+,5+,6+/m0/s1",
-    "smiles": "[H]C(=O)[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO"
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-ALT",
     "name": "D-Altrose",
-    "aliases": [
-      "<small>D</small>-altrose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "D",
@@ -671,8 +622,8 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:28385",
-    "kegg_id": "C06464",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
     "smiles": null
@@ -680,9 +631,7 @@
   {
     "id": "L-GAL",
     "name": "L-Galactose",
-    "aliases": [
-      "\u03b1-<small>L</small>-galactose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "L",
@@ -698,18 +647,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:42905",
-    "kegg_id": "C01825",
-    "pubchem_id": "1723631",
-    "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3+,4+,5-,6+/m0/s1",
-    "smiles": "OC[C@@H]1O[C@@H](O)[C@@H](O)[C@H](O)[C@@H]1O"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-TAL",
     "name": "D-Talose",
-    "aliases": [
-      "<small>D</small>-talose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "D",
@@ -725,18 +672,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:28458",
-    "kegg_id": "C06467",
-    "pubchem_id": "9568372",
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
     "inchi": null,
     "smiles": null
   },
   {
     "id": "L-ALL",
     "name": "L-Allose",
-    "aliases": [
-      "<em>aldehydo</em>-<small>D</small>-allose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "L",
@@ -752,18 +697,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:40822",
+    "chebi_id": null,
     "kegg_id": null,
-    "pubchem_id": "1724623",
-    "inchi": "InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h1,3-6,8-12H,2H2/t3-,4+,5-,6+/m0/s1",
-    "smiles": "[H]C(=O)[C@H](O)[C@H](O)[C@H](O)[C@H](O)CO"
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-MAN",
     "name": "D-Mannose",
-    "aliases": [
-      "<small>D</small>-mannopyranose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "D",
@@ -779,18 +722,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:4208",
-    "kegg_id": "C00159",
-    "pubchem_id": "7540499",
-    "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5+,6?/m1/s1",
-    "smiles": "OC[C@H]1OC(O)[C@@H](O)[C@@H](O)[C@@H]1O"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-GUL",
     "name": "L-Gulose",
-    "aliases": [
-      "<small>D</small>-gulopyranose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 6,
     "chirality": "L",
@@ -806,18 +747,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:4191",
-    "kegg_id": "C06465",
-    "pubchem_id": "1907365",
-    "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3+,4-,5-,6?/m1/s1",
-    "smiles": "OC[C@H]1OC(O)[C@H](O)[C@H](O)[C@H]1O"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "ALDO-C7-RRRRR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -834,7 +773,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -843,9 +782,7 @@
   {
     "id": "ALDO-C7-RRRRS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -862,7 +799,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -871,9 +808,7 @@
   {
     "id": "ALDO-C7-RRRSR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -890,7 +825,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -899,9 +834,7 @@
   {
     "id": "ALDO-C7-RRRSS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -918,7 +851,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -927,9 +860,7 @@
   {
     "id": "ALDO-C7-RRSRR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -946,7 +877,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -955,9 +886,7 @@
   {
     "id": "ALDO-C7-RRSRS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -974,7 +903,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -983,9 +912,7 @@
   {
     "id": "ALDO-C7-RRSSR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1002,7 +929,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1011,9 +938,7 @@
   {
     "id": "ALDO-C7-RRSSS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1030,7 +955,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1039,9 +964,7 @@
   {
     "id": "ALDO-C7-RSRRR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1058,7 +981,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1067,9 +990,7 @@
   {
     "id": "ALDO-C7-RSRRS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1086,7 +1007,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1095,9 +1016,7 @@
   {
     "id": "ALDO-C7-RSRSR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1114,7 +1033,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1123,9 +1042,7 @@
   {
     "id": "ALDO-C7-RSRSS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1142,7 +1059,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1151,9 +1068,7 @@
   {
     "id": "ALDO-C7-RSSRR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1170,7 +1085,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1179,9 +1094,7 @@
   {
     "id": "ALDO-C7-RSSRS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1198,7 +1111,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1207,9 +1120,7 @@
   {
     "id": "ALDO-C7-RSSSR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1226,7 +1137,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1235,9 +1146,7 @@
   {
     "id": "ALDO-C7-RSSSS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1254,7 +1163,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1263,9 +1172,7 @@
   {
     "id": "ALDO-C7-SRRRR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1282,7 +1189,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1291,9 +1198,7 @@
   {
     "id": "ALDO-C7-SRRRS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1310,7 +1215,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1319,9 +1224,7 @@
   {
     "id": "ALDO-C7-SRRSR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1338,7 +1241,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1347,9 +1250,7 @@
   {
     "id": "ALDO-C7-SRRSS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1366,7 +1267,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1375,9 +1276,7 @@
   {
     "id": "ALDO-C7-SRSRR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1394,7 +1293,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1403,9 +1302,7 @@
   {
     "id": "ALDO-C7-SRSRS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1422,7 +1319,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1431,9 +1328,7 @@
   {
     "id": "ALDO-C7-SRSSR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1450,7 +1345,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1459,9 +1354,7 @@
   {
     "id": "ALDO-C7-SRSSS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1478,7 +1371,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1487,9 +1380,7 @@
   {
     "id": "ALDO-C7-SSRRR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1506,7 +1397,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1515,9 +1406,7 @@
   {
     "id": "ALDO-C7-SSRRS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1534,7 +1423,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1543,9 +1432,7 @@
   {
     "id": "ALDO-C7-SSRSR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1562,7 +1449,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1571,9 +1458,7 @@
   {
     "id": "ALDO-C7-SSRSS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1590,7 +1475,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1599,9 +1484,7 @@
   {
     "id": "ALDO-C7-SSSRR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1618,7 +1501,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1627,9 +1510,7 @@
   {
     "id": "ALDO-C7-SSSRS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1646,7 +1527,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1655,9 +1536,7 @@
   {
     "id": "ALDO-C7-SSSSR",
     "name": "D-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "D",
@@ -1674,7 +1553,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1683,9 +1562,7 @@
   {
     "id": "ALDO-C7-SSSSS",
     "name": "L-aldoheptose",
-    "aliases": [
-      "aldoheptose"
-    ],
+    "aliases": [],
     "type": "aldose",
     "carbons": 7,
     "chirality": "L",
@@ -1702,7 +1579,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33918",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1713,8 +1590,7 @@
     "name": "Dihydroxyacetone",
     "aliases": [
       "DHA",
-      "1,3-Dihydroxyacetone",
-      "dihydroxyacetone"
+      "1,3-Dihydroxyacetone"
     ],
     "type": "ketose",
     "carbons": 3,
@@ -1726,18 +1602,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:16016",
-    "kegg_id": "C00184",
-    "pubchem_id": "1740268",
-    "inchi": "InChI=1S/C3H6O3/c4-1-3(6)2-5/h4-5H,1-2H2",
-    "smiles": "O=C(CO)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-ERLU",
     "name": "D-Erythrulose",
-    "aliases": [
-      "<small>D</small>-erythrulose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 4,
     "chirality": "D",
@@ -1750,18 +1624,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:16023",
-    "kegg_id": "C02022",
-    "pubchem_id": "1721313",
-    "inchi": "InChI=1S/C4H8O4/c5-1-3(7)4(8)2-6/h3,5-7H,1-2H2/t3-/m1/s1",
-    "smiles": "O=C(CO)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-ERLU",
     "name": "L-Erythrulose",
-    "aliases": [
-      "<small>L</small>-erythrulose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 4,
     "chirality": "L",
@@ -1774,18 +1646,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:27913",
-    "kegg_id": "C02045",
-    "pubchem_id": "1721314",
-    "inchi": "InChI=1S/C4H8O4/c5-1-3(7)4(8)2-6/h3,5-7H,1-2H2/t3-/m0/s1",
-    "smiles": "O=C(CO)[C@@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-RBU",
     "name": "D-Ribulose",
-    "aliases": [
-      "<small>D</small>-ribulose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 5,
     "chirality": "D",
@@ -1799,18 +1669,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:17173",
-    "kegg_id": "C00309",
-    "pubchem_id": "22344653",
-    "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h3,5-8,10H,1-2H2/t3-,5-/m1/s1",
-    "smiles": "O=C(CO)[C@H](O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-XLU",
     "name": "L-Xylulose",
-    "aliases": [
-      "<small>L</small>-xylulose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 5,
     "chirality": "L",
@@ -1824,18 +1692,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:17399",
-    "kegg_id": "C00312",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
-    "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h3,5-8,10H,1-2H2/t3-,5+/m0/s1",
-    "smiles": "O=C(CO)[C@H](O)[C@@H](O)CO"
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-XLU",
     "name": "D-Xylulose",
-    "aliases": [
-      "<small>D</small>-xylulose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 5,
     "chirality": "D",
@@ -1849,18 +1715,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:17140",
-    "kegg_id": "C00310",
-    "pubchem_id": "15234337",
-    "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h3,5-8,10H,1-2H2/t3-,5+/m1/s1",
-    "smiles": "O=C(CO)[C@@H](O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-RBU",
     "name": "L-Ribulose",
-    "aliases": [
-      "<small>L</small>-ribulose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 5,
     "chirality": "L",
@@ -1874,18 +1738,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:16880",
-    "kegg_id": "C00508",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
-    "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h3,5-8,10H,1-2H2/t3-,5-/m0/s1",
-    "smiles": "O=C(CO)[C@@H](O)[C@@H](O)CO"
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-TAG",
     "name": "D-Tagatose",
-    "aliases": [
-      "<em>keto</em>-<small>D</small>-tagatose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 6,
     "chirality": "D",
@@ -1900,18 +1762,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:47693",
+    "chebi_id": null,
     "kegg_id": null,
-    "pubchem_id": "1724555",
-    "inchi": "InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3,5-9,11-12H,1-2H2/t3-,5+,6-/m1/s1",
-    "smiles": "O=C(CO)[C@@H](O)[C@@H](O)[C@H](O)CO"
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-FRU",
     "name": "L-Fructose",
-    "aliases": [
-      "<small>L</small>-fructose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 6,
     "chirality": "L",
@@ -1926,8 +1786,8 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:28120",
-    "kegg_id": "C01719",
+    "chebi_id": null,
+    "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
     "smiles": null
@@ -1935,9 +1795,7 @@
   {
     "id": "D-SOR",
     "name": "D-Sorbose",
-    "aliases": [
-      "<small>D</small>-sorbose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 6,
     "chirality": "D",
@@ -1952,7 +1810,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:17317",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -1962,8 +1820,7 @@
     "id": "L-PSI",
     "name": "L-Psicose",
     "aliases": [
-      "L-Allulose",
-      "<small>D</small>-psicose"
+      "L-Allulose"
     ],
     "type": "ketose",
     "carbons": 6,
@@ -1979,18 +1836,17 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:27605",
-    "kegg_id": "C06468",
-    "pubchem_id": "18517216",
-    "inchi": "InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3,5-9,11-12H,1-2H2/t3-,5-,6+/m1/s1",
-    "smiles": "O=C(CO)[C@H](O)[C@H](O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-PSI",
     "name": "D-Psicose",
     "aliases": [
-      "D-Allulose",
-      "<small>D</small>-psicose"
+      "D-Allulose"
     ],
     "type": "ketose",
     "carbons": 6,
@@ -2006,18 +1862,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:27605",
-    "kegg_id": "C06468",
-    "pubchem_id": "18517216",
-    "inchi": "InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3,5-9,11-12H,1-2H2/t3-,5-,6+/m1/s1",
-    "smiles": "O=C(CO)[C@H](O)[C@H](O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-SOR",
     "name": "L-Sorbose",
-    "aliases": [
-      "<small>L</small>-sorbopyranose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 6,
     "chirality": "L",
@@ -2032,18 +1886,17 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:48649",
-    "kegg_id": "C00247",
-    "pubchem_id": "2689728",
-    "inchi": "InChI=1S/C6H12O6/c7-2-6(11)5(10)4(9)3(8)1-12-6/h3-5,7-11H,1-2H2/t3-,4+,5-,6?/m0/s1",
-    "smiles": "OCC1(O)OC[C@H](O)[C@@H](O)[C@@H]1O"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-FRU",
     "name": "D-Fructose",
     "aliases": [
-      "Levulose",
-      "<em>keto</em>-<small>D</small>-fructose"
+      "Levulose"
     ],
     "type": "ketose",
     "carbons": 6,
@@ -2059,18 +1912,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:48095",
-    "kegg_id": "C10906",
-    "pubchem_id": "5732297",
-    "inchi": "InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3,5-9,11-12H,1-2H2/t3-,5-,6-/m1/s1",
-    "smiles": "O=C(CO)[C@@H](O)[C@H](O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "L-TAG",
     "name": "L-Tagatose",
-    "aliases": [
-      "<em>keto</em>-<small>D</small>-tagatose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 6,
     "chirality": "L",
@@ -2085,18 +1936,16 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:47693",
+    "chebi_id": null,
     "kegg_id": null,
-    "pubchem_id": "1724555",
-    "inchi": "InChI=1S/C6H12O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3,5-9,11-12H,1-2H2/t3-,5+,6-/m1/s1",
-    "smiles": "O=C(CO)[C@@H](O)[C@@H](O)[C@H](O)CO"
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "KETO-C7-RRRR",
     "name": "D-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "D",
@@ -2112,7 +1961,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2121,9 +1970,7 @@
   {
     "id": "KETO-C7-RRRS",
     "name": "L-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "L",
@@ -2139,7 +1986,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2148,9 +1995,7 @@
   {
     "id": "KETO-C7-RRSR",
     "name": "D-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "D",
@@ -2166,7 +2011,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2175,9 +2020,7 @@
   {
     "id": "KETO-C7-RRSS",
     "name": "L-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "L",
@@ -2193,7 +2036,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2202,9 +2045,7 @@
   {
     "id": "KETO-C7-RSRR",
     "name": "D-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "D",
@@ -2220,7 +2061,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2229,9 +2070,7 @@
   {
     "id": "KETO-C7-RSRS",
     "name": "L-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "L",
@@ -2247,7 +2086,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2256,9 +2095,7 @@
   {
     "id": "KETO-C7-RSSR",
     "name": "D-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "D",
@@ -2274,7 +2111,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2283,9 +2120,7 @@
   {
     "id": "KETO-C7-RSSS",
     "name": "L-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "L",
@@ -2301,17 +2136,17 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
     "smiles": null
   },
   {
-    "id": "KETO-C7-SRRR",
-    "name": "D-ketoheptose",
+    "id": "D-SED",
+    "name": "D-Sedoheptulose",
     "aliases": [
-      "ketoheptose"
+      "Sedoheptulose"
     ],
     "type": "ketose",
     "carbons": 7,
@@ -2328,7 +2163,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2337,9 +2172,7 @@
   {
     "id": "KETO-C7-SRRS",
     "name": "L-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "L",
@@ -2355,7 +2188,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2364,9 +2197,7 @@
   {
     "id": "KETO-C7-SRSR",
     "name": "D-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "D",
@@ -2382,7 +2213,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2391,9 +2222,7 @@
   {
     "id": "KETO-C7-SRSS",
     "name": "L-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "L",
@@ -2409,7 +2238,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2418,9 +2247,7 @@
   {
     "id": "KETO-C7-SSRR",
     "name": "D-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "D",
@@ -2436,7 +2263,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2445,9 +2272,7 @@
   {
     "id": "KETO-C7-SSRS",
     "name": "L-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "L",
@@ -2463,7 +2288,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2472,9 +2297,7 @@
   {
     "id": "KETO-C7-SSSR",
     "name": "D-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "D",
@@ -2490,7 +2313,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2499,9 +2322,7 @@
   {
     "id": "KETO-C7-SSSS",
     "name": "L-ketoheptose",
-    "aliases": [
-      "ketoheptose"
-    ],
+    "aliases": [],
     "type": "ketose",
     "carbons": 7,
     "chirality": "L",
@@ -2517,7 +2338,7 @@
     "commercial": false,
     "cost_usd_per_kg": null,
     "metadata": {},
-    "chebi_id": "CHEBI:33949",
+    "chebi_id": null,
     "kegg_id": null,
     "pubchem_id": null,
     "inchi": null,
@@ -2552,8 +2373,7 @@
     "id": "GLYCEROL",
     "name": "Glycerol",
     "aliases": [
-      "Glycerin",
-      "glycerol"
+      "Glycerin"
     ],
     "type": "polyol",
     "carbons": 3,
@@ -2572,18 +2392,16 @@
       ],
       "canonical_config": "ACHIRAL"
     },
-    "chebi_id": "CHEBI:17754",
-    "kegg_id": "C00116",
-    "pubchem_id": "12672239",
-    "inchi": "InChI=1S/C3H8O3/c4-1-3(6)2-5/h3-6H,1-2H2",
-    "smiles": "OCC(O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-ERYTHRITOL",
     "name": "Erythritol",
-    "aliases": [
-      "erythritol"
-    ],
+    "aliases": [],
     "type": "polyol",
     "carbons": 4,
     "chirality": "D",
@@ -2603,11 +2421,11 @@
       ],
       "canonical_config": "RR"
     },
-    "chebi_id": "CHEBI:17113",
-    "kegg_id": "C00503",
-    "pubchem_id": "22770225",
-    "inchi": "InChI=1S/C4H10O4/c5-1-3(7)4(8)2-6/h3-8H,1-2H2/t3-,4+",
-    "smiles": "OC[C@@H](O)[C@@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "POLYOL-C4-SR",
@@ -2671,8 +2489,7 @@
     "id": "D-RIBITOL",
     "name": "Ribitol",
     "aliases": [
-      "Adonitol",
-      "ribitol"
+      "Adonitol"
     ],
     "type": "polyol",
     "carbons": 5,
@@ -2694,18 +2511,16 @@
       ],
       "canonical_config": "RRR"
     },
-    "chebi_id": "CHEBI:15963",
-    "kegg_id": "C00474",
-    "pubchem_id": "25108762",
-    "inchi": "InChI=1S/C5H12O5/c6-1-3(8)5(10)4(9)2-7/h3-10H,1-2H2/t3-,4+,5-",
-    "smiles": "OC[C@@H](O)[C@@H](O)[C@@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "D-ARABITOL",
     "name": "D-Arabitol",
-    "aliases": [
-      "<small>D</small>-arabinitol"
-    ],
+    "aliases": [],
     "type": "polyol",
     "carbons": 5,
     "chirality": "L",
@@ -2727,18 +2542,16 @@
       ],
       "canonical_config": "SRR"
     },
-    "chebi_id": "CHEBI:18333",
-    "kegg_id": "C01904",
-    "pubchem_id": "8204415",
-    "inchi": "InChI=1S/C5H12O5/c6-1-3(8)5(10)4(9)2-7/h3-10H,1-2H2/t3-,4-/m1/s1",
-    "smiles": "OC[C@@H](O)C(O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "XYLITOL",
     "name": "Xylitol",
-    "aliases": [
-      "xylitol"
-    ],
+    "aliases": [],
     "type": "polyol",
     "carbons": 5,
     "chirality": "D",
@@ -2759,11 +2572,11 @@
       ],
       "canonical_config": "RSR"
     },
-    "chebi_id": "CHEBI:17151",
-    "kegg_id": "C00379",
-    "pubchem_id": "17336832",
-    "inchi": "InChI=1S/C5H12O5/c6-1-3(8)5(10)4(9)2-7/h3-10H,1-2H2/t3-,4+,5+",
-    "smiles": "OC[C@@H](O)[C@H](O)[C@@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "POLYOL-C5-SSR",
@@ -2921,8 +2734,7 @@
     "id": "GALACTITOL",
     "name": "Galactitol",
     "aliases": [
-      "Dulcitol",
-      "galactitol"
+      "Dulcitol"
     ],
     "type": "polyol",
     "carbons": 6,
@@ -2947,11 +2759,11 @@
       ],
       "canonical_config": "RSRR"
     },
-    "chebi_id": "CHEBI:16813",
-    "kegg_id": "C01697",
-    "pubchem_id": "16901854",
-    "inchi": "InChI=1S/C6H14O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3-12H,1-2H2/t3-,4+,5+,6-",
-    "smiles": "OC[C@@H](O)[C@H](O)[C@H](O)[C@@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "POLYOL-C6-SSRR",
@@ -3021,8 +2833,7 @@
     "id": "D-SORBITOL",
     "name": "Sorbitol",
     "aliases": [
-      "D-Glucitol",
-      "glucitol"
+      "D-Glucitol"
     ],
     "type": "polyol",
     "carbons": 6,
@@ -3045,18 +2856,16 @@
       ],
       "canonical_config": "RSSR"
     },
-    "chebi_id": "CHEBI:30911",
+    "chebi_id": null,
     "kegg_id": null,
-    "pubchem_id": "83165",
+    "pubchem_id": null,
     "inchi": null,
     "smiles": null
   },
   {
     "id": "D-MANNITOL",
     "name": "D-Mannitol",
-    "aliases": [
-      "<small>D</small>-mannitol"
-    ],
+    "aliases": [],
     "type": "polyol",
     "carbons": 6,
     "chirality": "L",
@@ -3079,11 +2888,11 @@
       ],
       "canonical_config": "SSSR"
     },
-    "chebi_id": "CHEBI:16899",
-    "kegg_id": "C00392",
-    "pubchem_id": "16854081",
-    "inchi": "InChI=1S/C6H14O6/c7-1-3(9)5(11)6(12)4(10)2-8/h3-12H,1-2H2/t3-,4-,5-,6-/m1/s1",
-    "smiles": "OC[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)CO"
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   },
   {
     "id": "POLYOL-C6-SRRS",
@@ -3265,7 +3074,7 @@
         "ALDO-C7-RRRSR",
         "ALDO-C7-RSRRR",
         "KETO-C7-RRSR",
-        "KETO-C7-SRRR"
+        "D-SED"
       ],
       "canonical_config": "RSRRR"
     },
@@ -3817,6 +3626,5371 @@
         "ALDO-C7-SSSSS"
       ],
       "canonical_config": "SSSSS"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GUL-1P",
+    "name": "D-Gulose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GUL-3P",
+    "name": "D-Gulose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GUL-4P",
+    "name": "D-Gulose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GUL-6P",
+    "name": "D-Gulose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-MAN-1P",
+    "name": "L-Mannose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-MAN-3P",
+    "name": "L-Mannose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-MAN-4P",
+    "name": "L-Mannose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-MAN-6P",
+    "name": "L-Mannose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALL-1P",
+    "name": "D-Allose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALL-3P",
+    "name": "D-Allose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALL-4P",
+    "name": "D-Allose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALL-6P",
+    "name": "D-Allose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAL-1P",
+    "name": "L-Talose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAL-3P",
+    "name": "L-Talose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAL-4P",
+    "name": "L-Talose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAL-6P",
+    "name": "L-Talose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GAL-1P",
+    "name": "D-Galactose 1-phosphate",
+    "aliases": [
+      "Gal-1-P"
+    ],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GAL-3P",
+    "name": "D-Galactose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GAL-4P",
+    "name": "D-Galactose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GAL-6P",
+    "name": "D-Galactose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALT-1P",
+    "name": "L-Altrose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALT-3P",
+    "name": "L-Altrose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALT-4P",
+    "name": "L-Altrose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALT-6P",
+    "name": "L-Altrose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GLC-1P",
+    "name": "D-Glucose 1-phosphate",
+    "aliases": [
+      "G1P"
+    ],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GLC-3P",
+    "name": "D-Glucose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GLC-4P",
+    "name": "D-Glucose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GLC-6P",
+    "name": "D-Glucose 6-phosphate",
+    "aliases": [
+      "G6P"
+    ],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-IDO-1P",
+    "name": "L-Idose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-IDO-3P",
+    "name": "L-Idose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-IDO-4P",
+    "name": "L-Idose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-IDO-6P",
+    "name": "L-Idose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-IDO-1P",
+    "name": "D-Idose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-IDO-3P",
+    "name": "D-Idose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-IDO-4P",
+    "name": "D-Idose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-IDO-6P",
+    "name": "D-Idose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GLC-1P",
+    "name": "L-Glucose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GLC-3P",
+    "name": "L-Glucose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GLC-4P",
+    "name": "L-Glucose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GLC-6P",
+    "name": "L-Glucose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALT-1P",
+    "name": "D-Altrose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALT-3P",
+    "name": "D-Altrose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALT-4P",
+    "name": "D-Altrose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALT-6P",
+    "name": "D-Altrose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GAL-1P",
+    "name": "L-Galactose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GAL-3P",
+    "name": "L-Galactose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GAL-4P",
+    "name": "L-Galactose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GAL-6P",
+    "name": "L-Galactose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAL-1P",
+    "name": "D-Talose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAL-3P",
+    "name": "D-Talose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAL-4P",
+    "name": "D-Talose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAL-6P",
+    "name": "D-Talose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALL-1P",
+    "name": "L-Allose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALL-3P",
+    "name": "L-Allose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALL-4P",
+    "name": "L-Allose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALL-6P",
+    "name": "L-Allose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-MAN-1P",
+    "name": "D-Mannose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-MAN-3P",
+    "name": "D-Mannose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-MAN-4P",
+    "name": "D-Mannose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-MAN-6P",
+    "name": "D-Mannose 6-phosphate",
+    "aliases": [
+      "M6P"
+    ],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GUL-1P",
+    "name": "L-Gulose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GUL-3P",
+    "name": "L-Gulose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GUL-4P",
+    "name": "L-Gulose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GUL-6P",
+    "name": "L-Gulose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GUL-1,6BP",
+    "name": "D-Gulose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GUL-3,6BP",
+    "name": "D-Gulose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-MAN-1,6BP",
+    "name": "L-Mannose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-MAN-3,6BP",
+    "name": "L-Mannose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALL-1,6BP",
+    "name": "D-Allose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALL-3,6BP",
+    "name": "D-Allose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAL-1,6BP",
+    "name": "L-Talose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAL-3,6BP",
+    "name": "L-Talose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GAL-1,6BP",
+    "name": "D-Galactose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GAL-3,6BP",
+    "name": "D-Galactose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALT-1,6BP",
+    "name": "L-Altrose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALT-3,6BP",
+    "name": "L-Altrose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GLC-1,6BP",
+    "name": "D-Glucose 1,6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GLC-3,6BP",
+    "name": "D-Glucose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-IDO-1,6BP",
+    "name": "L-Idose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-IDO-3,6BP",
+    "name": "L-Idose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-IDO-1,6BP",
+    "name": "D-Idose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-IDO-3,6BP",
+    "name": "D-Idose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GLC-1,6BP",
+    "name": "L-Glucose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GLC-3,6BP",
+    "name": "L-Glucose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALT-1,6BP",
+    "name": "D-Altrose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ALT-3,6BP",
+    "name": "D-Altrose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-ALT",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GAL-1,6BP",
+    "name": "L-Galactose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GAL-3,6BP",
+    "name": "L-Galactose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAL-1,6BP",
+    "name": "D-Talose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAL-3,6BP",
+    "name": "D-Talose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-TAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALL-1,6BP",
+    "name": "L-Allose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-ALL-3,6BP",
+    "name": "L-Allose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-ALL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-MAN-1,6BP",
+    "name": "D-Mannose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-MAN-3,6BP",
+    "name": "D-Mannose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GUL-1,6BP",
+    "name": "L-Gulose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GUL-3,6BP",
+    "name": "L-Gulose 3, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GUL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3,
+        6
+      ],
+      "parent_type": "aldose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAG-1P",
+    "name": "D-Tagatose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-TAG",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAG-3P",
+    "name": "D-Tagatose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-TAG",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAG-4P",
+    "name": "D-Tagatose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-TAG",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAG-6P",
+    "name": "D-Tagatose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-TAG",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-FRU-1P",
+    "name": "L-Fructose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-FRU-3P",
+    "name": "L-Fructose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-FRU-4P",
+    "name": "L-Fructose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-FRU-6P",
+    "name": "L-Fructose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-SOR-1P",
+    "name": "D-Sorbose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-SOR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-SOR-3P",
+    "name": "D-Sorbose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-SOR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-SOR-4P",
+    "name": "D-Sorbose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-SOR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-SOR-6P",
+    "name": "D-Sorbose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-SOR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-PSI-1P",
+    "name": "L-Psicose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-PSI",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-PSI-3P",
+    "name": "L-Psicose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-PSI",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-PSI-4P",
+    "name": "L-Psicose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-PSI",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-PSI-6P",
+    "name": "L-Psicose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-PSI",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-PSI-1P",
+    "name": "D-Psicose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-PSI",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-PSI-3P",
+    "name": "D-Psicose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-PSI",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-PSI-4P",
+    "name": "D-Psicose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-PSI",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-PSI-6P",
+    "name": "D-Psicose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-PSI",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-SOR-1P",
+    "name": "L-Sorbose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-SOR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-SOR-3P",
+    "name": "L-Sorbose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-SOR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-SOR-4P",
+    "name": "L-Sorbose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-SOR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-SOR-6P",
+    "name": "L-Sorbose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-SOR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-FRU-1P",
+    "name": "D-Fructose 1-phosphate",
+    "aliases": [
+      "F1P"
+    ],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-FRU-3P",
+    "name": "D-Fructose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-FRU-4P",
+    "name": "D-Fructose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-FRU-6P",
+    "name": "D-Fructose 6-phosphate",
+    "aliases": [
+      "F6P"
+    ],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAG-1P",
+    "name": "L-Tagatose 1-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-TAG",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAG-3P",
+    "name": "L-Tagatose 3-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "L-TAG",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAG-4P",
+    "name": "L-Tagatose 4-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "L-TAG",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAG-6P",
+    "name": "L-Tagatose 6-phosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H13O9P",
+    "stereocenters": [
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-TAG",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-TAG-1,6BP",
+    "name": "D-Tagatose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-TAG",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-FRU-1,6BP",
+    "name": "L-Fructose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-SOR-1,6BP",
+    "name": "D-Sorbose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-SOR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-PSI-1,6BP",
+    "name": "L-Psicose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-PSI",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-PSI-1,6BP",
+    "name": "D-Psicose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-PSI",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-SOR-1,6BP",
+    "name": "L-Sorbose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-SOR",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-FRU-1,6BP",
+    "name": "D-Fructose 1,6-bisphosphate",
+    "aliases": [
+      "F16BP",
+      "FBP"
+    ],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-TAG-1,6BP",
+    "name": "L-Tagatose 1, 6-bisphosphate",
+    "aliases": [],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-TAG",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1,
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": false
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GLYC-3P",
+    "name": "D-Glyceraldehyde 3-phosphate",
+    "aliases": [
+      "G3P",
+      "GAP"
+    ],
+    "type": "phosphate",
+    "carbons": 3,
+    "chirality": "D",
+    "formula": "C3H7O6P",
+    "stereocenters": [
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 3
+      }
+    ],
+    "parent_monosaccharide": "D-GLYC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        3
+      ],
+      "parent_type": "aldose",
+      "curated": true
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "DHA-1P",
+    "name": "Dihydroxyacetone phosphate",
+    "aliases": [
+      "DHAP"
+    ],
+    "type": "phosphate",
+    "carbons": 3,
+    "chirality": "achiral",
+    "formula": "C3H7O6P",
+    "stereocenters": [],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "DHA",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        1
+      ],
+      "parent_type": "ketose",
+      "curated": true
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ERY-4P",
+    "name": "D-Erythrose 4-phosphate",
+    "aliases": [
+      "E4P"
+    ],
+    "type": "phosphate",
+    "carbons": 4,
+    "chirality": "D",
+    "formula": "C4H9O7P",
+    "stereocenters": [
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 4
+      }
+    ],
+    "parent_monosaccharide": "D-ERY",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        4
+      ],
+      "parent_type": "aldose",
+      "curated": true
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-RIB-5P",
+    "name": "D-Ribose 5-phosphate",
+    "aliases": [
+      "R5P"
+    ],
+    "type": "phosphate",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H11O8P",
+    "stereocenters": [
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 5
+      }
+    ],
+    "parent_monosaccharide": "D-RIB",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        5
+      ],
+      "parent_type": "aldose",
+      "curated": true
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-RBU-5P",
+    "name": "D-Ribulose 5-phosphate",
+    "aliases": [
+      "Ru5P"
+    ],
+    "type": "phosphate",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H11O8P",
+    "stereocenters": [
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 5
+      }
+    ],
+    "parent_monosaccharide": "D-RBU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        5
+      ],
+      "parent_type": "ketose",
+      "curated": true
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-XLU-5P",
+    "name": "D-Xylulose 5-phosphate",
+    "aliases": [
+      "Xu5P"
+    ],
+    "type": "phosphate",
+    "carbons": 5,
+    "chirality": "D",
+    "formula": "C5H11O8P",
+    "stereocenters": [
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 5
+      }
+    ],
+    "parent_monosaccharide": "D-XLU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        5
+      ],
+      "parent_type": "ketose",
+      "curated": true
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-SED-7P",
+    "name": "D-Sedoheptulose 7-phosphate",
+    "aliases": [
+      "S7P"
+    ],
+    "type": "phosphate",
+    "carbons": 7,
+    "chirality": "D",
+    "formula": "C7H15O10P",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 7
+      }
+    ],
+    "parent_monosaccharide": "D-SED",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        7
+      ],
+      "parent_type": "ketose",
+      "curated": true
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-FRU-2,6BP",
+    "name": "D-Fructose 2,6-bisphosphate",
+    "aliases": [
+      "F26BP"
+    ],
+    "type": "phosphate",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H14O12P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "phosphate",
+        "position": 2
+      },
+      {
+        "type": "phosphate",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-FRU",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "phosphate_positions": [
+        2,
+        6
+      ],
+      "parent_type": "ketose",
+      "curated": true
     },
     "chebi_id": null,
     "kegg_id": null,
