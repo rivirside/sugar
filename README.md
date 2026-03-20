@@ -1,49 +1,106 @@
 # SUGAR
 
-Systematic Utilization of Glycans for Alternate Routes -- a computational platform for discovering synthesis pathways between sugars.
+Systematic Utilization of Glycans for Alternate Routes: a computational platform for discovering enzymatic synthesis pathways between sugar metabolites.
 
 ## What it does
 
-SUGAR programmatically enumerates all C2-C7 monosaccharide stereoisomers (94 compounds + 41 polyols), generates rule-based reactions between them (epimerization, isomerization, reduction), and provides a web interface to find optimal synthesis pathways using Yen's K-shortest-paths algorithm.
+SUGAR enumerates all C2-C7 monosaccharide stereoisomers, their polyol reduction products, and phosphorylated derivatives, then generates rule-based enzymatic reactions between them. A web interface lets you find optimal multi-step synthesis pathways using Yen's K-shortest-paths algorithm.
 
-## Structure
+| Metric | Count |
+|--------|-------|
+| Compounds | 279 |
+| Reactions | 1,940 |
+| Reaction types | 8 |
+| Pipeline tests | 116 |
+| Frontend tests | 5 |
 
-- `pipeline/` -- Python data pipeline (generates compound/reaction JSON from stereochemistry rules)
-- `web/` -- Next.js frontend (dark theme, pathway finder, compound/reaction browsers, network graph)
-
-## Quick Start
+## Quick start
 
 ### Generate data
+
 ```bash
 pip install -r pipeline/requirements.txt
 python -m pipeline.run_pipeline
 ```
 
-### Run frontend
+The pipeline writes `compounds.json`, `reactions.json`, and `pipeline_metadata.json` to `pipeline/output/` and copies them to `web/data/` for the frontend.
+
+### Run the frontend
+
 ```bash
 cd web
 npm install
 npm run dev
 ```
 
+Opens at `http://localhost:3000`. The pathway finder, compound browser, reaction browser, and network graph are all client-side with no backend required.
+
 ### Run tests
+
 ```bash
-# Pipeline tests (44 tests)
+# Pipeline (116 tests)
 python -m pytest pipeline/tests/ -v
 
-# Frontend tests (5 tests)
+# Frontend (5 tests)
 cd web && npm test
 ```
 
-## Ring 1 (current)
+## Project structure
 
-- 135 compounds (94 monosaccharides + 41 polyols)
-- 696 reactions (478 epimerizations, 124 isomerizations, 94 reductions)
-- Client-side pathfinding with Yen's K-shortest-paths
-- Deterministic pipeline: same input = same output
+```
+pipeline/                        Python data pipeline
+  enumerate/                     Compound generation (monosaccharides, polyols, phosphosugars)
+  reactions/                     Reaction generation and cost scoring
+  validate/                      Completeness, duplicate, and mass-balance checks
+  import_/                       Ring 2 database enrichment (ChEBI, KEGG, RHEA, BRENDA)
+  data/                          Name mappings, match overrides
+  output/                        Generated JSON output
+  tests/                         pytest suite
 
-## Future Rings
+web/                             Next.js frontend
+  app/                           Pages (dashboard, pathways, compounds, reactions, network, about)
+  components/                    UI components (search, filters, pathway display)
+  lib/                           Core logic (pathfinding, graph building, types, search)
+  data/                          Copied pipeline output consumed at build time
+```
 
-- **Ring 2**: Database enrichment (ChEBI, KEGG, RHEA, BRENDA cross-referencing)
-- **Ring 3**: Derivatives (phosphates, acids, lactones, amino sugars, nucleotide sugars, deoxy sugars)
-- **Ring 4**: Disaccharides, hypothetical enzyme engineering targets, advanced scoring
+## Architecture: the Ring model
+
+SUGAR is built in concentric rings. Each ring adds a layer of data on top of the previous one.
+
+**Ring 1 (complete)** generates all compounds and reactions from first principles:
+
+- 94 monosaccharides (63 aldoses + 31 ketoses, C2-C7)
+- 41 polyols (reduction products with degeneracy detection)
+- 144 phosphosugars (systematic C6 + curated biologically important compounds)
+- 8 reaction types: epimerization, isomerization, reduction, phosphorylation, dephosphorylation, mutase, phospho-epimerization, phospho-isomerization
+- All reactions start as "hypothetical" evidence tier
+
+**Ring 2 (implemented, optional)** enriches Ring 1 data with external databases:
+
+- ChEBI bulk matching (name, alias, formula, fuzzy)
+- KEGG compound cross-referencing
+- RHEA reaction matching (upgrades evidence tier to "validated" or "predicted")
+- BRENDA enzyme kinetics (EC numbers, enzyme names)
+- D-to-L reaction inference from validated D-form reactions
+
+Run with database enrichment: `python -m pipeline.run_pipeline` (requires network access and BRENDA credentials in `.env`)
+
+Run without: `python -m pipeline.run_pipeline --skip-import`
+
+**Ring 3 (planned)** will add more derivative classes: acids, lactones, amino sugars, nucleotide sugars, deoxy sugars.
+
+**Ring 4 (planned)** will add disaccharides, hypothetical enzyme engineering targets, and advanced scoring models.
+
+## Documentation
+
+- **[Architecture Guide](docs/architecture.md)** -- how the pipeline and frontend are built, how to extend them
+- **[Data Guide](docs/data-guide.md)** -- compound/reaction data model, evidence tiers, data provenance, biochemistry rationale
+
+## Pipeline version
+
+Current output was generated by pipeline v2.0.0 on 2026-03-20. The pipeline is deterministic: same code produces the same output.
+
+## Author
+
+Built by the ReefBio / ReefPath Initiative team.
