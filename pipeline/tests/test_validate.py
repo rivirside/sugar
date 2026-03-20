@@ -2,21 +2,27 @@ from pipeline.validate.completeness import check_completeness
 from pipeline.validate.duplicates import check_duplicates
 from pipeline.validate.mass_balance import check_mass_balance
 from pipeline.enumerate.monosaccharides import enumerate_all_monosaccharides
+from pipeline.enumerate.phosphosugars import generate_phosphosugars
 
 
 def test_completeness_passes_for_full_set():
-    compounds = enumerate_all_monosaccharides()
+    monosaccharides = enumerate_all_monosaccharides()
+    phosphosugars = generate_phosphosugars(monosaccharides)
+    compounds = monosaccharides + phosphosugars
     warnings = check_completeness(compounds)
     assert len(warnings) == 0
 
 def test_completeness_warns_on_missing():
-    compounds = enumerate_all_monosaccharides()
-    compounds = compounds[:-1]
+    monosaccharides = enumerate_all_monosaccharides()
+    # Drop one monosaccharide (always tracked by completeness)
+    compounds = monosaccharides[:-1]
     warnings = check_completeness(compounds)
     assert len(warnings) > 0
 
 def test_no_duplicates_in_full_set():
-    compounds = enumerate_all_monosaccharides()
+    monosaccharides = enumerate_all_monosaccharides()
+    phosphosugars = generate_phosphosugars(monosaccharides)
+    compounds = monosaccharides + phosphosugars
     duplicates = check_duplicates(compounds)
     assert len(duplicates) == 0
 
