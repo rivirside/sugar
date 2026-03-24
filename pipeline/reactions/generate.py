@@ -41,7 +41,7 @@ def generate_epimerizations(compounds: list[dict]) -> list[dict]:
     # Group compounds by (type, carbons) — skip derivatives (handled by own modules)
     groups: dict[tuple, list] = {}
     for c in compounds:
-        if c["type"] in ("phosphate", "deoxy_sugar", "amino_sugar"):
+        if c["type"] in ("phosphate", "deoxy_sugar", "amino_sugar", "acid", "lactone"):
             continue
         key = (c["type"], c["carbons"])
         groups.setdefault(key, []).append(c)

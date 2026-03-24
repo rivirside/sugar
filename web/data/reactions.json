@@ -49274,5 +49274,931 @@
       "family_richness": 1.0,
       "structural_data": 1.0
     }
+  },
+  {
+    "id": "OX-URONIC-C6-D-GLC-D-GlcA",
+    "substrates": [
+      "D-GLC"
+    ],
+    "products": [
+      "D-GlcA"
+    ],
+    "reaction_type": "oxidation",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_oxidation"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 1.0,
+    "cost_score": 0.94,
+    "cofactors": [
+      "NAD+"
+    ],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "OX-URONIC-C6-D-GAL-D-GalA",
+    "substrates": [
+      "D-GAL"
+    ],
+    "products": [
+      "D-GalA"
+    ],
+    "reaction_type": "oxidation",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_oxidation"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 1.0,
+    "cost_score": 0.94,
+    "cofactors": [
+      "NAD+"
+    ],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "OX-URONIC-C6-D-MAN-D-ManA",
+    "substrates": [
+      "D-MAN"
+    ],
+    "products": [
+      "D-ManA"
+    ],
+    "reaction_type": "oxidation",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_oxidation"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 1.0,
+    "cost_score": 0.94,
+    "cofactors": [
+      "NAD+"
+    ],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "OX-URONIC-C6-L-IDO-L-IdoA",
+    "substrates": [
+      "L-IDO"
+    ],
+    "products": [
+      "L-IdoA"
+    ],
+    "reaction_type": "oxidation",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_oxidation"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 1.0,
+    "cost_score": 0.94,
+    "cofactors": [
+      "NAD+"
+    ],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "OX-ALDONIC-C6-D-GLC-D-GlcnA",
+    "substrates": [
+      "D-GLC"
+    ],
+    "products": [
+      "D-GlcnA"
+    ],
+    "reaction_type": "oxidation",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_oxidation"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 1.0,
+    "cost_score": 0.94,
+    "cofactors": [
+      "NAD+"
+    ],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "OX-ALDONIC-C6-D-GAL-D-GalnA",
+    "substrates": [
+      "D-GAL"
+    ],
+    "products": [
+      "D-GalnA"
+    ],
+    "reaction_type": "oxidation",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_oxidation"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 1.0,
+    "cost_score": 0.94,
+    "cofactors": [
+      "NAD+"
+    ],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "OX-URONIC-C6-L-GLC-L-GlcA",
+    "substrates": [
+      "L-GLC"
+    ],
+    "products": [
+      "L-GlcA"
+    ],
+    "reaction_type": "oxidation",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_oxidation"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 1.0,
+    "cost_score": 0.94,
+    "cofactors": [
+      "NAD+"
+    ],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "OX-URONIC-C6-L-GAL-L-GalA",
+    "substrates": [
+      "L-GAL"
+    ],
+    "products": [
+      "L-GalA"
+    ],
+    "reaction_type": "oxidation",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_oxidation"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 1.0,
+    "cost_score": 0.94,
+    "cofactors": [
+      "NAD+"
+    ],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-ACID-C6-D-GlcA-D-GalA",
+    "substrates": [
+      "D-GlcA"
+    ],
+    "products": [
+      "D-GalA"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-ACID-C6-D-GalA-D-GlcA",
+    "substrates": [
+      "D-GalA"
+    ],
+    "products": [
+      "D-GlcA"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-ACID-C6-D-GlcA-D-ManA",
+    "substrates": [
+      "D-GlcA"
+    ],
+    "products": [
+      "D-ManA"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-ACID-C6-D-ManA-D-GlcA",
+    "substrates": [
+      "D-ManA"
+    ],
+    "products": [
+      "D-GlcA"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-ACID-C6-D-GlcA-L-IdoA",
+    "substrates": [
+      "D-GlcA"
+    ],
+    "products": [
+      "L-IdoA"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-ACID-C6-L-IdoA-D-GlcA",
+    "substrates": [
+      "L-IdoA"
+    ],
+    "products": [
+      "D-GlcA"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-ACID-C6-L-GlcA-L-GalA",
+    "substrates": [
+      "L-GlcA"
+    ],
+    "products": [
+      "L-GalA"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-ACID-C6-L-GalA-L-GlcA",
+    "substrates": [
+      "L-GalA"
+    ],
+    "products": [
+      "L-GlcA"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-ACID-C6-D-GlcnA-D-GalnA",
+    "substrates": [
+      "D-GlcnA"
+    ],
+    "products": [
+      "D-GalnA"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-ACID-C6-D-GalnA-D-GlcnA",
+    "substrates": [
+      "D-GalnA"
+    ],
+    "products": [
+      "D-GlcnA"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "acid_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "acid_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "LACT-C6-D-GlcnA-D-GDL",
+    "substrates": [
+      "D-GlcnA"
+    ],
+    "products": [
+      "D-GDL"
+    ],
+    "reaction_type": "lactonization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "lactone_lactonization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "lactone_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "HYDRO-C6-D-GDL-D-GlcnA",
+    "substrates": [
+      "D-GDL"
+    ],
+    "products": [
+      "D-GlcnA"
+    ],
+    "reaction_type": "hydrolysis",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "lactone_hydrolysis"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "lactone_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "LACT-C6-D-GlcA-D-GlcAL",
+    "substrates": [
+      "D-GlcA"
+    ],
+    "products": [
+      "D-GlcAL"
+    ],
+    "reaction_type": "lactonization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "lactone_lactonization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "lactone_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "HYDRO-C6-D-GlcAL-D-GlcA",
+    "substrates": [
+      "D-GlcAL"
+    ],
+    "products": [
+      "D-GlcA"
+    ],
+    "reaction_type": "hydrolysis",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "lactone_hydrolysis"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "lactone_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "LACT-C6-D-GalnA-D-GalL",
+    "substrates": [
+      "D-GalnA"
+    ],
+    "products": [
+      "D-GalL"
+    ],
+    "reaction_type": "lactonization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "lactone_lactonization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "lactone_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "HYDRO-C6-D-GalL-D-GalnA",
+    "substrates": [
+      "D-GalL"
+    ],
+    "products": [
+      "D-GalnA"
+    ],
+    "reaction_type": "hydrolysis",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "lactone_hydrolysis"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "lactone_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "LACT-C6-L-GalA-L-GulL",
+    "substrates": [
+      "L-GalA"
+    ],
+    "products": [
+      "L-GulL"
+    ],
+    "reaction_type": "lactonization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "lactone_lactonization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "lactone_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "HYDRO-C6-L-GulL-L-GalA",
+    "substrates": [
+      "L-GulL"
+    ],
+    "products": [
+      "L-GalA"
+    ],
+    "reaction_type": "hydrolysis",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "lactone_hydrolysis"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "lactone_rule_generation",
+      "carbon_count": 6
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
   }
 ]

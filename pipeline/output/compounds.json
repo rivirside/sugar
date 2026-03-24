@@ -9597,5 +9597,425 @@
     "pubchem_id": null,
     "inchi": null,
     "smiles": null
+  },
+  {
+    "id": "D-GlcA",
+    "name": "D-Glucuronic acid",
+    "aliases": [
+      "glucuronate"
+    ],
+    "type": "acid",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H10O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "uronic",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "acid_type": "uronic",
+      "oxidized_position": 6,
+      "parent_type": "aldose"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GalA",
+    "name": "D-Galacturonic acid",
+    "aliases": [
+      "galacturonate"
+    ],
+    "type": "acid",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H10O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "uronic",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "acid_type": "uronic",
+      "oxidized_position": 6,
+      "parent_type": "aldose"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-ManA",
+    "name": "D-Mannuronic acid",
+    "aliases": [
+      "mannuronate"
+    ],
+    "type": "acid",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H10O7",
+    "stereocenters": [
+      "S",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "uronic",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "D-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "acid_type": "uronic",
+      "oxidized_position": 6,
+      "parent_type": "aldose"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-IdoA",
+    "name": "L-Iduronic acid",
+    "aliases": [
+      "iduronate"
+    ],
+    "type": "acid",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H10O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "uronic",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-IDO",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "acid_type": "uronic",
+      "oxidized_position": 6,
+      "parent_type": "aldose"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GlcnA",
+    "name": "D-Gluconic acid",
+    "aliases": [
+      "gluconate"
+    ],
+    "type": "acid",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "aldonic",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "acid_type": "aldonic",
+      "oxidized_position": 1,
+      "parent_type": "aldose"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GalnA",
+    "name": "D-Galactonic acid",
+    "aliases": [
+      "galactonate"
+    ],
+    "type": "acid",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H12O7",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "aldonic",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "acid_type": "aldonic",
+      "oxidized_position": 1,
+      "parent_type": "aldose"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GlcA",
+    "name": "L-Glucuronic acid",
+    "aliases": [],
+    "type": "acid",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H10O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "uronic",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "acid_type": "uronic",
+      "oxidized_position": 6,
+      "parent_type": "aldose"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GalA",
+    "name": "L-Galacturonic acid",
+    "aliases": [],
+    "type": "acid",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H10O7",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "uronic",
+        "position": 6
+      }
+    ],
+    "parent_monosaccharide": "L-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "acid_type": "uronic",
+      "oxidized_position": 6,
+      "parent_type": "aldose"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GDL",
+    "name": "D-Glucono-delta-lactone",
+    "aliases": [
+      "GDL"
+    ],
+    "type": "lactone",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H10O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "lactone",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "parent_acid": "D-GlcnA",
+      "acid_type": "aldonic"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GlcAL",
+    "name": "D-Glucuronolactone",
+    "aliases": [],
+    "type": "lactone",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H8O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "lactone",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "parent_acid": "D-GlcA",
+      "acid_type": "uronic"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "D-GalL",
+    "name": "D-Galactonolactone",
+    "aliases": [],
+    "type": "lactone",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C6H10O6",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "lactone",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "parent_acid": "D-GalnA",
+      "acid_type": "aldonic"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "L-GulL",
+    "name": "L-Gulonolactone",
+    "aliases": [
+      "vitamin C precursor"
+    ],
+    "type": "lactone",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C6H8O6",
+    "stereocenters": [
+      "S",
+      "R",
+      "S",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "lactone",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "parent_acid": "L-GalA",
+      "acid_type": "uronic"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   }
 ]

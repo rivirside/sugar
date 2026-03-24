@@ -11,6 +11,8 @@ from pipeline.enumerate.polyols import generate_polyols
 from pipeline.enumerate.phosphosugars import generate_phosphosugars
 from pipeline.enumerate.deoxy_sugars import generate_deoxy_sugars
 from pipeline.enumerate.amino_sugars import generate_amino_sugars
+from pipeline.enumerate.sugar_acids import generate_sugar_acids
+from pipeline.enumerate.lactones import generate_lactones
 from pipeline.reactions.phosphorylation import (
     generate_phosphorylations,
     generate_dephosphorylations,
@@ -28,6 +30,8 @@ from pipeline.reactions.amino_reactions import (
     generate_amino_epimerizations,
     generate_nacetylations,
 )
+from pipeline.reactions.acid_reactions import generate_oxidations, generate_acid_epimerizations
+from pipeline.reactions.lactone_reactions import generate_lactonizations
 from pipeline.validate.completeness import check_completeness
 from pipeline.validate.duplicates import check_duplicates
 from pipeline.validate.mass_balance import check_mass_balance
@@ -90,9 +94,22 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
     amino_sugars = generate_amino_sugars(monosaccharides)
     print(f"  -> {len(amino_sugars)} amino sugars")
 
+    # Step 3d: Generate sugar acids
+    print("\n[3d/8] Generating sugar acids...")
+    sugar_acids = generate_sugar_acids(monosaccharides)
+    print(f"  -> {len(sugar_acids)} sugar acids")
+
+    # Step 3e: Generate lactones
+    print("\n[3e/8] Generating lactones...")
+    lactone_compounds = generate_lactones(sugar_acids)
+    print(f"  -> {len(lactone_compounds)} lactones")
+
     # Step 4: Combine all compounds
     print("\n[4/8] Combining compound sets...")
-    all_compounds = monosaccharides + polyols + phosphosugars + deoxy_sugars + amino_sugars
+    all_compounds = (
+        monosaccharides + polyols + phosphosugars +
+        deoxy_sugars + amino_sugars + sugar_acids + lactone_compounds
+    )
     print(f"  -> {len(all_compounds)} total compounds")
 
     # Step 5: Validate
@@ -124,12 +141,16 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
     deoxy_epimerizations = generate_deoxy_epimerizations(deoxy_sugars)
     amino_epimerizations = generate_amino_epimerizations(amino_sugars)
     nacetylations = generate_nacetylations(amino_sugars)
+    oxidations = generate_oxidations(sugar_acids)
+    acid_epimerizations = generate_acid_epimerizations(sugar_acids)
+    lactonizations = generate_lactonizations(lactone_compounds)
     all_reactions = (
         epimerizations + isomerizations + reductions +
         phosphorylations + dephosphorylations + mutases +
         phospho_epimerizations + phospho_isomerizations +
         deoxy_epimerizations +
-        amino_epimerizations + nacetylations
+        amino_epimerizations + nacetylations +
+        oxidations + acid_epimerizations + lactonizations
     )
     print(f"  -> {len(epimerizations)} epimerizations")
     print(f"  -> {len(isomerizations)} isomerizations")
@@ -142,6 +163,9 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
     print(f"  -> {len(deoxy_epimerizations)} deoxy-epimerizations")
     print(f"  -> {len(amino_epimerizations)} amino-epimerizations")
     print(f"  -> {len(nacetylations)} N-acetylations/deacetylations")
+    print(f"  -> {len(oxidations)} oxidations")
+    print(f"  -> {len(acid_epimerizations)} acid-epimerizations")
+    print(f"  -> {len(lactonizations)} lactonizations/hydrolyses")
     print(f"  -> {len(all_reactions)} total reactions")
 
     # Step 7: Mass balance check (ABORT on failure)
@@ -362,6 +386,8 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
             "phosphosugars": len(phosphosugars),
             "deoxy_sugars": len(deoxy_sugars),
             "amino_sugars": len(amino_sugars),
+            "sugar_acids": len(sugar_acids),
+            "lactones": len(lactone_compounds),
             "total_compounds": len(all_compounds),
             "epimerizations": len(epimerizations),
             "isomerizations": len(isomerizations),
@@ -374,6 +400,9 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
             "deoxy_epimerizations": len(deoxy_epimerizations),
             "amino_epimerizations": len(amino_epimerizations),
             "nacetylations": len(nacetylations),
+            "oxidations": len(oxidations),
+            "acid_epimerizations": len(acid_epimerizations),
+            "lactonizations": len(lactonizations),
             "total_reactions": len(all_reactions),
         },
         "gap_analysis": gap_metadata,

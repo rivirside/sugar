@@ -1,13 +1,15 @@
 {
   "pipeline_version": "2.0.0",
-  "generated_at": "2026-03-24T08:03:20.354132+00:00",
+  "generated_at": "2026-03-24T08:06:48.449243+00:00",
   "counts": {
     "monosaccharides": 94,
     "polyols": 41,
     "phosphosugars": 144,
     "deoxy_sugars": 8,
     "amino_sugars": 9,
-    "total_compounds": 296,
+    "sugar_acids": 8,
+    "lactones": 4,
+    "total_compounds": 308,
     "epimerizations": 478,
     "isomerizations": 124,
     "reductions": 94,
@@ -19,20 +21,23 @@
     "deoxy_epimerizations": 4,
     "amino_epimerizations": 12,
     "nacetylations": 6,
-    "total_reactions": 1962
+    "oxidations": 8,
+    "acid_epimerizations": 10,
+    "lactonizations": 8,
+    "total_reactions": 1988
   },
   "gap_analysis": {
-    "reactions_analyzed": 1962,
+    "reactions_analyzed": 1988,
     "coverage_direct": 0,
     "coverage_cross_substrate": 0,
     "coverage_family_only": 0,
-    "coverage_none": 1962,
+    "coverage_none": 1988,
     "avg_engineerability_score": 1.0,
     "ec_families_indexed": 0
   },
   "import_stats": null,
   "completeness_warnings": [],
-  "duplicate_warnings": 0,
+  "duplicate_warnings": 1,
   "output_files": {
     "compounds": "/Users/rivir/Documents/GitHub/sugar/pipeline/output/compounds.json",
     "reactions": "/Users/rivir/Documents/GitHub/sugar/pipeline/output/reactions.json"
