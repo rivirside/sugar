@@ -26,6 +26,7 @@ from pipeline.validate.duplicates import check_duplicates
 from pipeline.validate.mass_balance import check_mass_balance
 from pipeline.analyze.gap_analysis import run_gap_analysis
 from pipeline.analyze.enzyme_index import build_enzyme_index
+from pipeline.analyze.tier2_fetch import enrich_enzyme_index
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
 
@@ -281,6 +282,15 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
     print("\n[G1] Building enzyme index...")
     enzyme_index = build_enzyme_index(all_reactions)
     print(f"  -> {len(enzyme_index)} EC families indexed")
+
+    # Step G1.5: Tier 2 enrichment (UniProt/PDB)
+    if not skip_import:
+        print("\n[G1.5] Enriching enzyme index with UniProt/PDB data...")
+        enzyme_index = enrich_enzyme_index(enzyme_index, use_cache=True)
+        tier2_count = sum(1 for e in enzyme_index.values() if e.get("family_size") is not None)
+        print(f"  -> {tier2_count}/{len(enzyme_index)} EC families enriched with Tier 2 data")
+    else:
+        print("\n[G1.5] Skipping Tier 2 enrichment (--skip-import)")
 
     # Step G2: Run gap analysis
     print("\n[G2] Running gap analysis...")

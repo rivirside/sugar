@@ -1,6 +1,6 @@
 {
   "pipeline_version": "2.0.0",
-  "generated_at": "2026-03-24T05:31:16.375274+00:00",
+  "generated_at": "2026-03-24T07:54:44.391623+00:00",
   "counts": {
     "monosaccharides": 94,
     "polyols": 41,
@@ -22,7 +22,7 @@
     "coverage_cross_substrate": 1431,
     "coverage_family_only": 0,
     "coverage_none": 526,
-    "avg_engineerability_score": 0.6393,
+    "avg_engineerability_score": 0.5574,
     "ec_families_indexed": 21
   },
   "import_stats": {
