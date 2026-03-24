@@ -50200,5 +50200,413 @@
       "family_richness": 1.0,
       "structural_data": 1.0
     }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GLC-UDP-GAL",
+    "substrates": [
+      "UDP-GLC"
+    ],
+    "products": [
+      "UDP-GAL"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GAL-UDP-GLC",
+    "substrates": [
+      "UDP-GAL"
+    ],
+    "products": [
+      "UDP-GLC"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GLC-UDP-GalNAc-NDP",
+    "substrates": [
+      "UDP-GLC"
+    ],
+    "products": [
+      "UDP-GalNAc-NDP"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GalNAc-NDP-UDP-GLC",
+    "substrates": [
+      "UDP-GalNAc-NDP"
+    ],
+    "products": [
+      "UDP-GLC"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GAL-UDP-GlcA-NDP",
+    "substrates": [
+      "UDP-GAL"
+    ],
+    "products": [
+      "UDP-GlcA-NDP"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GlcA-NDP-UDP-GAL",
+    "substrates": [
+      "UDP-GlcA-NDP"
+    ],
+    "products": [
+      "UDP-GAL"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GAL-UDP-GlcNAc-NDP",
+    "substrates": [
+      "UDP-GAL"
+    ],
+    "products": [
+      "UDP-GlcNAc-NDP"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GlcNAc-NDP-UDP-GAL",
+    "substrates": [
+      "UDP-GlcNAc-NDP"
+    ],
+    "products": [
+      "UDP-GAL"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GlcA-NDP-UDP-GalNAc-NDP",
+    "substrates": [
+      "UDP-GlcA-NDP"
+    ],
+    "products": [
+      "UDP-GalNAc-NDP"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GalNAc-NDP-UDP-GlcA-NDP",
+    "substrates": [
+      "UDP-GalNAc-NDP"
+    ],
+    "products": [
+      "UDP-GlcA-NDP"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GlcNAc-NDP-UDP-GalNAc-NDP",
+    "substrates": [
+      "UDP-GlcNAc-NDP"
+    ],
+    "products": [
+      "UDP-GalNAc-NDP"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
+  },
+  {
+    "id": "EPI-NDP-UDP-UDP-GalNAc-NDP-UDP-GlcNAc-NDP",
+    "substrates": [
+      "UDP-GalNAc-NDP"
+    ],
+    "products": [
+      "UDP-GlcNAc-NDP"
+    ],
+    "reaction_type": "epimerization",
+    "evidence_tier": "hypothetical",
+    "evidence_criteria": [
+      {
+        "type": "rule_generated",
+        "rule": "ndp_epimerization"
+      }
+    ],
+    "yield": null,
+    "cofactor_burden": 0.0,
+    "cost_score": 0.94,
+    "cofactors": [],
+    "metadata": {
+      "source": "ndp_rule_generation"
+    },
+    "enzyme_coverage": "none",
+    "cross_substrate_candidates": [],
+    "ec_family_size": null,
+    "engineerability_score": 1.0,
+    "engineerability_components": {
+      "coverage_level": 1.0,
+      "best_similarity": 1.0,
+      "family_richness": 1.0,
+      "structural_data": 1.0
+    }
   }
 ]

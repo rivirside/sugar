@@ -10017,5 +10017,284 @@
     "pubchem_id": null,
     "inchi": null,
     "smiles": null
+  },
+  {
+    "id": "UDP-GLC",
+    "name": "UDP-Glucose",
+    "aliases": [
+      "UDP-D-glucose",
+      "uridine diphosphate glucose"
+    ],
+    "type": "nucleotide_sugar",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C15H24N2O17P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "nucleotide",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GLC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "nucleotide": "UDP",
+      "parent_sugar": "D-GLC"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "UDP-GAL",
+    "name": "UDP-Galactose",
+    "aliases": [
+      "UDP-D-galactose"
+    ],
+    "type": "nucleotide_sugar",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C15H24N2O17P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "nucleotide",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GAL",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "nucleotide": "UDP",
+      "parent_sugar": "D-GAL"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "UDP-GlcA-NDP",
+    "name": "UDP-Glucuronic acid",
+    "aliases": [
+      "UDP-glucuronate"
+    ],
+    "type": "nucleotide_sugar",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C15H22N2O18P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "nucleotide",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GlcA",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "nucleotide": "UDP",
+      "parent_sugar": "D-GlcA"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "UDP-GlcNAc-NDP",
+    "name": "UDP-N-Acetylglucosamine",
+    "aliases": [
+      "UDP-GlcNAc"
+    ],
+    "type": "nucleotide_sugar",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C17H27N3O17P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "nucleotide",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GlcNAc",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "nucleotide": "UDP",
+      "parent_sugar": "D-GlcNAc"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "UDP-GalNAc-NDP",
+    "name": "UDP-N-Acetylgalactosamine",
+    "aliases": [
+      "UDP-GalNAc"
+    ],
+    "type": "nucleotide_sugar",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C17H27N3O17P2",
+    "stereocenters": [
+      "R",
+      "S",
+      "S",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "nucleotide",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-GalNAc",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "nucleotide": "UDP",
+      "parent_sugar": "D-GalNAc"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "GDP-MAN",
+    "name": "GDP-Mannose",
+    "aliases": [
+      "GDP-D-mannose"
+    ],
+    "type": "nucleotide_sugar",
+    "carbons": 6,
+    "chirality": "D",
+    "formula": "C16H25N5O16P2",
+    "stereocenters": [
+      "S",
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "nucleotide",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "D-MAN",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "nucleotide": "GDP",
+      "parent_sugar": "D-MAN"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "GDP-FUC",
+    "name": "GDP-Fucose",
+    "aliases": [
+      "GDP-L-fucose"
+    ],
+    "type": "nucleotide_sugar",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C16H25N5O15P2",
+    "stereocenters": [
+      "S",
+      "R",
+      "R"
+    ],
+    "modifications": [
+      {
+        "type": "nucleotide",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-FUC",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "nucleotide": "GDP",
+      "parent_sugar": "L-FUC"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
+  },
+  {
+    "id": "dTDP-RHA",
+    "name": "dTDP-Rhamnose",
+    "aliases": [
+      "dTDP-L-rhamnose"
+    ],
+    "type": "nucleotide_sugar",
+    "carbons": 6,
+    "chirality": "L",
+    "formula": "C16H26N2O15P2",
+    "stereocenters": [
+      "R",
+      "R",
+      "S"
+    ],
+    "modifications": [
+      {
+        "type": "nucleotide",
+        "position": 1
+      }
+    ],
+    "parent_monosaccharide": "L-RHA",
+    "commercial": false,
+    "cost_usd_per_kg": null,
+    "metadata": {
+      "nucleotide": "dTDP",
+      "parent_sugar": "L-RHA"
+    },
+    "chebi_id": null,
+    "kegg_id": null,
+    "pubchem_id": null,
+    "inchi": null,
+    "smiles": null
   }
 ]
