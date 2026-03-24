@@ -26,6 +26,7 @@ export type ReactionType =
   | "transamination"
   | "nucleotidyltransfer"
   | "multi_epimerization";
+export type ScoringMode = "cost" | "engineerability" | "combined";
 
 export interface Compound {
   id: string;
@@ -71,6 +72,33 @@ export interface Reaction {
   km_mm?: number | null;
   kcat_sec?: number | null;
   metadata?: Record<string, unknown>;
+  // Ring 4: Enzyme Gap Analysis (optional, present when Ring 4 has run)
+  enzyme_coverage?: "direct" | "cross_substrate" | "family_only" | "none";
+  cross_substrate_candidates?: Array<{
+    ec_number: string;
+    enzyme_name: string;
+    organism: string | null;
+    uniprot_id: string | null;
+    pdb_ids: string[];
+    source_reaction_id: string;
+    known_substrate_id: string;
+    matching_layer: 1 | 2 | 3;
+    similarity: {
+      overall: number;
+      stereocenter_distance: number;
+      modification_distance: number;
+      carbon_count_distance: number;
+      type_distance: number;
+    };
+  }>;
+  ec_family_size?: number | null;
+  engineerability_score?: number;
+  engineerability_components?: {
+    coverage_level: number;
+    best_similarity: number;
+    family_richness: number;
+    structural_data: number;
+  };
 }
 
 export interface PipelineMetadata {
