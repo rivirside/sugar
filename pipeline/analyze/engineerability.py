@@ -69,7 +69,10 @@ def compute_score(
         similarity_component = 1.0 - best_similarity
 
     # Component 3: EC family richness
-    if ec_family_size is None:
+    # When coverage is "none", override to 1.0 (no family data is relevant)
+    if coverage_level == "none":
+        family_component = 1.0
+    elif ec_family_size is None:
         family_component = DEFAULT_FAMILY_PENALTY
     else:
         family_component = 1.0 - min(ec_family_size / FAMILY_SIZE_CEILING, 1.0)

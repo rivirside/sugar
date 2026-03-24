@@ -25,10 +25,10 @@ def test_no_candidates_score_one():
         has_pdb=False,
         num_candidates=0,
     )
-    assert score > 0.95  # near-maximum: family_richness default (0.8) prevents exact 1.0
+    assert score == 1.0
     assert components["coverage_level"] == 1.0
     assert components["best_similarity"] == 1.0
-    assert components["family_richness"] == 0.8  # None default
+    assert components["family_richness"] == 1.0  # overridden to 1.0 when coverage is "none"
     assert components["structural_data"] == 1.0
 
 
