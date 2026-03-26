@@ -34,6 +34,11 @@ from pipeline.reactions.amino_reactions import (
 from pipeline.reactions.acid_reactions import generate_oxidations, generate_acid_epimerizations
 from pipeline.reactions.lactone_reactions import generate_lactonizations
 from pipeline.reactions.ndp_reactions import generate_ndp_epimerizations
+from pipeline.reactions.bridge_reactions import (
+    generate_amination_bridges,
+    generate_deoxygenation_bridges,
+    generate_ndp_activation_bridges,
+)
 from pipeline.validate.completeness import check_completeness
 from pipeline.validate.duplicates import check_duplicates
 from pipeline.validate.mass_balance import check_mass_balance
@@ -153,6 +158,10 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
     acid_epimerizations = generate_acid_epimerizations(sugar_acids)
     lactonizations = generate_lactonizations(lactone_compounds)
     ndp_epimerizations = generate_ndp_epimerizations(ndp_sugars)
+    # Bridge reactions connecting compound classes
+    amination_bridges = generate_amination_bridges(amino_sugars)
+    deoxygenation_bridges = generate_deoxygenation_bridges(deoxy_sugars)
+    ndp_activation_bridges = generate_ndp_activation_bridges(ndp_sugars, all_compounds)
     all_reactions = (
         epimerizations + isomerizations + reductions +
         phosphorylations + dephosphorylations + mutases +
@@ -160,7 +169,8 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
         deoxy_epimerizations +
         amino_epimerizations + nacetylations +
         oxidations + acid_epimerizations + lactonizations +
-        ndp_epimerizations
+        ndp_epimerizations +
+        amination_bridges + deoxygenation_bridges + ndp_activation_bridges
     )
     print(f"  -> {len(epimerizations)} epimerizations")
     print(f"  -> {len(isomerizations)} isomerizations")
@@ -177,6 +187,9 @@ def run_pipeline(skip_import: bool = False, refresh: set[str] | None = None) -> 
     print(f"  -> {len(acid_epimerizations)} acid-epimerizations")
     print(f"  -> {len(lactonizations)} lactonizations/hydrolyses")
     print(f"  -> {len(ndp_epimerizations)} NDP-sugar epimerizations")
+    print(f"  -> {len(amination_bridges)} amination bridges")
+    print(f"  -> {len(deoxygenation_bridges)} deoxygenation bridges")
+    print(f"  -> {len(ndp_activation_bridges)} NDP-activation bridges")
     print(f"  -> {len(all_reactions)} total reactions")
 
     # Step 7: Mass balance check (ABORT on failure)

@@ -1,6 +1,6 @@
 {
   "pipeline_version": "2.0.0",
-  "generated_at": "2026-03-26T06:36:01.605878+00:00",
+  "generated_at": "2026-03-26T07:09:19.977148+00:00",
   "counts": {
     "monosaccharides": 94,
     "polyols": 41,
@@ -26,15 +26,15 @@
     "acid_epimerizations": 10,
     "lactonizations": 8,
     "ndp_epimerizations": 12,
-    "total_reactions": 2052
+    "total_reactions": 2096
   },
   "gap_analysis": {
-    "reactions_analyzed": 2052,
+    "reactions_analyzed": 2096,
     "coverage_direct": 35,
-    "coverage_cross_substrate": 1477,
+    "coverage_cross_substrate": 1485,
     "coverage_family_only": 0,
-    "coverage_none": 540,
-    "avg_engineerability_score": 0.5575,
+    "coverage_none": 576,
+    "avg_engineerability_score": 0.5644,
     "ec_families_indexed": 21
   },
   "import_stats": {
